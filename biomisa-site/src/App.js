@@ -16,7 +16,7 @@ function App() {
           </a>
         </header>
 
-        <div>
+        <div className="gradient">
 
         </div>
 

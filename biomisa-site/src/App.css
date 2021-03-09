@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+
 
   color: white;
 }
@@ -18,8 +18,20 @@
 
 .App-body {
 
-  background-image: linear-gradient(to bottom, #fc5602 65%, transparent);
+  background-image: linear-gradient(to bottom, #00F260,
+  #29FFC6);
   width: 100%;
+  min-height: 100vh;
+
+
+  line-height: 0;
+
+}
+
+.gradient{
+
+
+  background-image: linear-gradient(to bottom, #fc5602 35%, transparent);
   min-height: 100vh;
 }
 
