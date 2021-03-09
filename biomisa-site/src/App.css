@@ -18,7 +18,7 @@
 
 .App-body {
 
-  background-color: #fc5602;
+  background-image: linear-gradient(to bottom, #fc5602 65%, transparent);
   width: 100%;
   min-height: 100vh;
 }
