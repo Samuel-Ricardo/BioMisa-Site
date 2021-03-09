@@ -11,7 +11,7 @@ function App() {
       <body className="App-body">
 
         <header>
-          <a>
+          <a href="https://www.youtube.com/channel/UCEOcdeNrlmLUvOWNPSwQ3jA" target="_blank">
             <img src= {TioMisaBanner} id = "Tio-Misa--banner"></img>
           </a>
         </header>
