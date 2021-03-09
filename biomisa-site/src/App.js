@@ -1,4 +1,5 @@
 import './App.css';
+import TioMisaBanner from './Images/Biomisa-banner.jpeg';
 
 function App() {
   return (
@@ -9,8 +10,14 @@ function App() {
 
       <body className="App-body">
 
+        <header>
+          <a>
+            <img src= {TioMisaBanner} id = "Tio-Misa--banner"></img>
+          </a>
+        </header>
+
         <div>
-          
+
         </div>
 
       </body>
