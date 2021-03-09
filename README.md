@@ -1,2 +1,2 @@
 # BioMisa-Website
-educational biology website
+educational biology site
