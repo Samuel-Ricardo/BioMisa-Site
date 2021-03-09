@@ -18,8 +18,8 @@
 
 .App-body {
 
-  background-image: linear-gradient(to bottom, #00F260,
-  #29FFC6);
+  background-image: linear-gradient(to bottom, #29FFC6 ,
+  #00F260);
   width: 100%;
   min-height: 100vh;
 
@@ -31,15 +31,15 @@
 .gradient{
 
 
-  background-image: linear-gradient(to bottom, #fc5602 35%, transparent);
-  min-height: 100vh;
+  background-image: linear-gradient(to bottom, #fc5602 , transparent);
+  min-height: 500vh;
 }
 
 .App-link {
   color: #61dafb;
 }
 
-.App-body header a #Tio-Misa--banner {
+#Tio-Misa--banner {
 
   width: 98.5vw;
 
