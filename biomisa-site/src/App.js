@@ -1,4 +1,5 @@
 import './App.css';
+import DinamicHeader from './Components/Header'
 import TioMisaBanner from './Images/Biomisa-banner.jpeg';
 
 function App() {
@@ -16,7 +17,17 @@ function App() {
           </a>
         </header>
 
-        <div className="gradient"></div>
+        <div className="gradient">
+
+          <div className='Pane'>
+
+          <DinamicHeader></DinamicHeader>
+
+          </div>
+
+        </div>
+
+
 
       </body>
 

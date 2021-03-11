@@ -28,11 +28,23 @@
 
 }
 
+.Pane{
+
+  position: absolute;
+
+  background-color: black;
+
+  z-index: 100;
+
+
+
+}
+
 .gradient{
 
 
   background-image: linear-gradient(to bottom, #fc5602 , transparent);
-  min-height: 501vh;
+  min-height: 100vh;
 }
 
 .App-link {
@@ -41,7 +53,7 @@
 
 #Tio-Misa--banner {
 
-  width: 98.5vw;
+  width: 100vw;
 
 }
 
