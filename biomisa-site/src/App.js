@@ -1,4 +1,5 @@
 import './App.css';
+import DinamicHeader from './Components/Header'
 
 import Background from "./Components/Background"
 

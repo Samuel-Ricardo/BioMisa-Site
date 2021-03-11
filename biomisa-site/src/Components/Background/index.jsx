@@ -1,16 +1,23 @@
-import React from 'react'
-import DinamicHeader from '../Header'
+import React, {useState} from 'react'
 import TioMisaBanner from '../../Images/Biomisa-banner.jpeg';
 import './Background.css'
+import DinamicHeader from '../Header'
 
 
 export default () => {
 
-
+  const [windowWidth, setWindowWidth] = useState(600)
+  const [windowHeigth, setWindowHeigth] = useState(800)
 
   return(
 
-    <body className="App-body">
+    <body className="App-body"
+      style={
+        {
+          minHeight : 0
+        }}>
+
+
 
     <header>
       <a href="https://www.youtube.com/channel/UCEOcdeNrlmLUvOWNPSwQ3jA">
@@ -18,16 +25,27 @@ export default () => {
       </a>
     </header>
 
-    <div className="gradient">
+      <div className="gradient"
+        style={
+          {
+            minHeight : windowHeigth
+          }}
+      >
+
 
       <div className='Pane'>
 
-      <DinamicHeader></DinamicHeader>
+<DinamicHeader></DinamicHeader>
 
-      </div>
+<p>pedro</p>
+<p>pedro</p>
+<p>pedro</p>
+<p>pedro</p>
+<p>pedro</p>
+
+</div>
 
     </div>
-
 
 
   </body>

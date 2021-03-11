@@ -3,36 +3,46 @@
 
   background-image: linear-gradient(to bottom, #29FFC6 ,
   #00F260);
-  width: 100%;
-  min-height: 100vh;
 
 
   line-height: 0;
+
+
 
 }
 
 .Pane{
 
-  position: absolute;
+
+  position: relative;
+
+  margin-bottom: 1000px;
+
+  float: top;
 
   background-color: black;
 
-  z-index: 100;
+  z-index: 999;
 
+}
+
+header {
 
 
 }
+
 
 .gradient{
 
 
   background-image: linear-gradient(to bottom, #fc5602 , transparent);
-  min-height: 100vh;
 }
 
 
 
 #Tio-Misa--banner {
+
+
 
   width: 100vw;
 
