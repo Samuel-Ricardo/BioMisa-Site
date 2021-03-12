@@ -1,12 +1,13 @@
 import React from "react"
-import './Header.css'
+import './DynamicHeader.css'
 
 export default () => {
 
   return(
 
-    <header>
+    <header className='Header'>
 
+      
     </header>
 
   )

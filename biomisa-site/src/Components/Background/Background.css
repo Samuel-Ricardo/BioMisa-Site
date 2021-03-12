@@ -7,7 +7,7 @@
 
   line-height: 0;
 
-  min-height: 150vh;
+  min-height: 100vh;
 
 }
 
@@ -17,7 +17,12 @@
 
   margin-top: -20vh;
 
+/*
   padding: 20px;
+
+*/
+
+  padding: 0.00001px;
 
   background-color: white;
 
@@ -27,7 +32,7 @@
 
   z-index: 999;
 
-  max-width: 80vw;
+  max-width: 90vw;
 
   height: auto;
 

@@ -1,6 +1,6 @@
 import React from "react";
 import './App.css';
-import DinamicHeader from './Components/DynamicHeader';
+import DynamicHeader from './Components/DynamicHeader';
 import Background from "./Components/Background";
 
 function App() {
@@ -14,7 +14,7 @@ function App() {
       <Background>
 
         <header>
-          <DinamicHeader/>
+          <DynamicHeader/>
         </header>
 
         <section>
