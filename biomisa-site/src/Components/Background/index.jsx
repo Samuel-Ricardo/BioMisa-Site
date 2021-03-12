@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React from 'react'
 import TioMisaBanner from '../../Images/Biomisa-banner.jpeg';
 import './Background.css'
 
