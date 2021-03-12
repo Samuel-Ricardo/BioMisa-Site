@@ -6,7 +6,7 @@ export default () => {
   return(
 
     <header>
-      <p>pao com quejo</p>
+
     </header>
 
   )
