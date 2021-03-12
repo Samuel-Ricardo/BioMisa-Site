@@ -18,6 +18,9 @@
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
+    "rules": {
+      "no-anonymous-default-exports": "off"
+    },
     "extends": [
       "react-app",
       "react-app/jest"
