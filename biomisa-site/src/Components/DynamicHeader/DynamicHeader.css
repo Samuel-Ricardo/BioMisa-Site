@@ -5,16 +5,44 @@
   min-height: 8vh;
   min-width: 90vw;
 
-  display: inline-block;
+  display: flex;
+
 
   color: white;
 
   background-color: #4ce300;
 }
 
+.text-area{
+
+  position: relative;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  margin: 0px 60px 0px 60px;
+
+
+
+  width: 100%;
+}
+
 .ScreenName{
+
+  display: inline-block;
 
   font-size: 20pt;
   font-weight: bold;
-  margin: 15px 60px;
+
+
+}
+
+.ScreenMap{
+
+  display: inline-block;
+
+  font-size: 16pt;
+  font-weight: bold;
+
 }

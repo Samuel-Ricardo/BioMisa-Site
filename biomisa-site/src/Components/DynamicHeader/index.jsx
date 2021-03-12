@@ -7,13 +7,17 @@ export default (props) => {
 
     <header className='Header'>
 
-      <div className='ScreenName'>
-        <p>{props.screenName}</p>
-      </div>
+      <section className="text-area">
 
-      <div className='ScreenMap'>
-        <p>{props.screenMap}</p>
-      </div>
+        <div className='ScreenName'>
+          <p>{props.screenName}</p>
+        </div>
+
+        <div className='ScreenMap'>
+          <p>{props.screenMap}</p>
+        </div>
+        
+      </section>
 
     </header>
 

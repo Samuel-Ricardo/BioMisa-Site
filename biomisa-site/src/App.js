@@ -14,7 +14,7 @@ function App() {
       <Background>
 
         <header>
-          <DynamicHeader screenName={'Home Screen'} screen/>
+          <DynamicHeader screenName={'Home Screen'} screenMap="Home Screen /"/>
         </header>
 
         <section>
