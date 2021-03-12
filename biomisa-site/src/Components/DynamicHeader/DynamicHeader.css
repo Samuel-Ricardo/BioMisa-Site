@@ -2,9 +2,19 @@
 
   border-radius: 30px 30px 0px 0px;
 
-  margin: -20;
-  min-height: 10vh;
+  min-height: 8vh;
   min-width: 90vw;
 
+  display: inline-block;
+
+  color: white;
+
   background-color: #4ce300;
+}
+
+.ScreenName{
+
+  font-size: 20pt;
+  font-weight: bold;
+  margin: 15px 60px;
 }
