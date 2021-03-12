@@ -26,22 +26,16 @@ export default () => {
     </header>
 
       <div className="gradient"
-        style={
-          {
-            minHeight : windowHeigth
-          }}
+//        style={
+//          {
+//            minHeight : windowHeigth
+//          }}
       >
 
 
       <div className='Pane'>
 
 <DinamicHeader></DinamicHeader>
-
-<p>pedro</p>
-<p>pedro</p>
-<p>pedro</p>
-<p>pedro</p>
-<p>pedro</p>
 
 </div>
 
