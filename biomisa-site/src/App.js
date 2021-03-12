@@ -17,7 +17,7 @@ function App() {
           <DynamicHeader screenName={'Home Screen'} screenMap="Home Screen /"/>
         </header>
 
-        <section>
+        <section style={{paddingLeft: 30}}>
           <p>Pedro >:()</p>
         </section>
 
