@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './PerfilImage.css'
 import BiomisaPerfil from '../../Images/Biomisa.jpeg'
 
@@ -44,14 +44,17 @@ export default (props) => {
 
     if (isFile(image)) {
 
-      setImage(image)
+        setImage(image)
+
+
     } else {
 
-      setImage(BiomisaPerfil)
+        setImage(BiomisaPerfil)
+
     }
   }
 
-  updateImage(props.src)
+
 
   return (
 
