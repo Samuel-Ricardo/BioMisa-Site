@@ -9,6 +9,8 @@ export default (props) => {
 
     <header className='Header'>
 
+      <PerfilImage src={props.image}/>
+
       <section className="text-area">
 
         <div className='ScreenName'>
