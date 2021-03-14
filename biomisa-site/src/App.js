@@ -5,6 +5,14 @@ import Background from "./Components/Background";
 import images from './Images'
 
 function App() {
+
+  const [perfilImage, setPerfilImage] = React.useState(images.BIOMISA_LOGO)
+
+  const updatePerfilImage = (image) => {
+
+        setPerfilImage(image)
+  }
+
   return (
 
     <div className="App">
@@ -15,7 +23,7 @@ function App() {
       <Background>
 
         <header>
-          <DynamicHeader screenName={'Home Screen'} screenMap="Home Screen /" src={images.BIOMISA_LOGO}/>
+          <DynamicHeader screenName={'Home Screen'} screenMap="Home Screen /" perfilImage={perfilImage}/>
         </header>
 
         <section style={{paddingLeft: 30}}>

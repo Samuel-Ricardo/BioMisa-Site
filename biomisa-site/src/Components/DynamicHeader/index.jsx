@@ -2,6 +2,7 @@ import React from "react"
 import './DynamicHeader.css'
 
 import PerfilImage from '../PerfilImage'
+import Images from "../../Images"
 
 
 export default (props) => {
@@ -11,7 +12,7 @@ export default (props) => {
 
     <header className='Header'>
 
-      <PerfilImage src={props.src}/>
+      <PerfilImage src={Images.BIOMISA_LOGO}/>
 
       <section className="text-area">
 
