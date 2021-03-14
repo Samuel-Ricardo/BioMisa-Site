@@ -3,13 +3,15 @@ import './DynamicHeader.css'
 
 import PerfilImage from '../PerfilImage'
 
+
 export default (props) => {
+
 
   return(
 
     <header className='Header'>
 
-      <PerfilImage src={props.image}/>
+      <PerfilImage src={props.src}/>
 
       <section className="text-area">
 

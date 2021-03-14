@@ -2,6 +2,7 @@ import React from "react";
 import './App.css';
 import DynamicHeader from './Components/DynamicHeader';
 import Background from "./Components/Background";
+import images from './Images'
 
 function App() {
   return (
@@ -14,7 +15,7 @@ function App() {
       <Background>
 
         <header>
-          <DynamicHeader screenName={'Home Screen'} screenMap="Home Screen /"/>
+          <DynamicHeader screenName={'Home Screen'} screenMap="Home Screen /" src={images.BIOMISA_LOGO}/>
         </header>
 
         <section style={{paddingLeft: 30}}>

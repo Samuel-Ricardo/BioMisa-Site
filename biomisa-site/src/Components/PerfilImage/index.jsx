@@ -7,11 +7,15 @@ const fs = require('fs')
 
 export default (props) => {
 
-  const [image, setImage] = React.useState(BiomisaPerfil)
+  const [image, setImage] = React.useState(props.src)
 
   const isFile = async (image) => {
 
     if (image === undefined || image === null || image === '' || image === ' ') {
+
+      console.log("")
+      console.log('É Vazio: '+image)
+      console.log("")
 
       return false
     }
@@ -20,10 +24,10 @@ export default (props) => {
 
       const dir = await fs.promises.opendir(image)
 
-      const isFile = (dir.readSync().isFile())
+      const isFile = await (dir.readSync().isFile())
 
       console.log("")
-      console.log("é Arquivo: "+isFile)
+      console.log("is File: "+isFile)
       console.log("")
 
       return isFile
@@ -38,11 +42,9 @@ export default (props) => {
     }
   }
 
-  isFile(props.src)
-
   const updateImage = (image) => {
 
-    if (isFile(image)) {
+    if ( isFile('image')) {
 
         setImage(image)
 
@@ -54,13 +56,11 @@ export default (props) => {
     }
   }
 
-
-
   return (
 
     <div className='PerfilImage'>
       pedro
-      <img src={image} alt="perfil image"></img>
+      <img src={props.src} alt="perfil image" ></img>
     </div>
 
   )
