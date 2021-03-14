@@ -28,7 +28,10 @@
 
   color: black;
 
+  border-width: 1px;
   border-radius: 30px;
+  border-color: #4ce300;
+
 
   z-index: 999;
 

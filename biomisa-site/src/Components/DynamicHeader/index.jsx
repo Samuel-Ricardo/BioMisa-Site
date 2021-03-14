@@ -1,6 +1,8 @@
 import React from "react"
 import './DynamicHeader.css'
 
+import PerfilImage from '../PerfilImage'
+
 export default (props) => {
 
   return(
@@ -16,7 +18,7 @@ export default (props) => {
         <div className='ScreenMap'>
           <p>{props.screenMap}</p>
         </div>
-        
+
       </section>
 
     </header>
