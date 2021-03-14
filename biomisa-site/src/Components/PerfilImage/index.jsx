@@ -40,7 +40,18 @@ export default (props) => {
 
   isFile(props.src)
 
+  const updateImage = (image) => {
 
+    if (isFile(image)) {
+
+      setImage(image)
+    } else {
+
+      setImage(BiomisaPerfil)
+    }
+  }
+
+  updateImage(props.src)
 
   return (
 
