@@ -1,6 +1,34 @@
-.PerfilImage{
+.PerfilImage--Background{
+
   background-color: aquamarine;
+
   border-radius: 100%;
+  border-color: black;
+  border-width: 10px;
+
+  margin-top: -25pt;
+  margin-left: -15pt;
+
+  width: 8vw;
+  height: 11vh;
+
   position: absolute;
+
+  display:flex;
+  align-items: center;
+
+
+}
+
+.PerfilImage{
+
+  border-style: solid;
+  border-radius: 100%;
+  border-width: medium;
+  border-color: #4ce300;
+
+  position: relative;
+
+  width: 100%;
   height: 100%;
 }

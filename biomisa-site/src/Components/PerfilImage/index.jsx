@@ -8,9 +8,12 @@ export default (props) => {
 
   return (
 
-    <div className='PerfilImage'>
-      pedro
-      <img src={props.src} alt="perfil image" ></img>
+    <div className='PerfilImage--Background'>
+      <img
+        src={props.src}
+        alt="perfil image"
+        className='PerfilImage'
+      ></img>
     </div>
 
   )
