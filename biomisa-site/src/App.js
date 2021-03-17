@@ -1,17 +1,16 @@
 import React from "react";
 import './App.css';
-import DynamicHeader from './Components/DynamicHeader';
+
+import { BrowserRouter } from 'react-router-dom'
+
 import Background from "./Components/Background";
-import images from './Images'
+import Routes from './Components/Routes'
+
+
 
 function App() {
 
-  const [perfilImage, setPerfilImage] = React.useState(images.BIOMISA_LOGO)
 
-  const updatePerfilImage = (image) => {
-
-        setPerfilImage(image)
-  }
 
   return (
 
@@ -20,17 +19,13 @@ function App() {
 
       </header>
 
-      <Background>
+      <BrowserRouter>
+        <Background>
 
-        <header>
-          <DynamicHeader screenName={'Home Screen'} screenMap="Home Screen /" perfilImage={perfilImage}/>
-        </header>
+          <Routes/>
 
-        <section style={{paddingLeft: 30}}>
-          <p>Pedro >:()</p>
-        </section>
-
-      </Background>
+        </Background>
+      </BrowserRouter>
 
       <footer className="App-footer">
 
