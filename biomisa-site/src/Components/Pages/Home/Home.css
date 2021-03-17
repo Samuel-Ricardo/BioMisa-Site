@@ -1,5 +1,5 @@
 
-.Home{
+.Home--Display{
 
   position: relative;
 
@@ -9,10 +9,9 @@
 
 }
 
-.Home-Content{
+.Home--Content{
 
   display: inline-block;
-  background-color: blue;
   width: 10%;
 }
 

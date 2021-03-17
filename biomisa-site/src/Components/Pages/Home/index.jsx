@@ -14,9 +14,9 @@ const HomePage = (props) => {
         <DynamicHeader screenName={'Welcome'} screenMap="Home Screen" perfilImage={props.perfilImage}/>
       </header>
 
-      <div className="Home">
+      <div className="Home--Display">
 
-      <section className='Home-Content' style={{ paddingLeft: 30 }}>
+      <section className='Home--Content' style={{ paddingLeft: 30 }}>
 
         <p>Pedro >:()</p>
 
