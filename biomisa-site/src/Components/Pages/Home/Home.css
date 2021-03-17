@@ -1,0 +1,20 @@
+
+.Home{
+
+  position: relative;
+
+  /*justify-content: space-between;*/
+
+  width: 100%;
+
+}
+
+.Home-Content{
+
+  display: inline-block;
+  background-color: blue;
+  width: 10%;
+}
+
+
+

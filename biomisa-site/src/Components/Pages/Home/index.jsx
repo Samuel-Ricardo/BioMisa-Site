@@ -2,6 +2,7 @@ import React from 'react'
 import './Home.css'
 
 import DynamicHeader from '../../DynamicHeader';
+import Menu from '../../Menu'
 
 const HomePage = (props) => {
 
@@ -10,18 +11,22 @@ const HomePage = (props) => {
     <>
 
       <header>
-        <DynamicHeader screenName={'Home Screen'} screenMap="Home Screen /" perfilImage={props.perfilImage}/>
+        <DynamicHeader screenName={'Welcome'} screenMap="Home Screen" perfilImage={props.perfilImage}/>
       </header>
 
-      <section style={{paddingLeft: 30}}>
+      <div className="Home">
+
+      <section className='Home-Content' style={{ paddingLeft: 30 }}>
+
         <p>Pedro >:()</p>
 
 
       </section>
 
-      <></>
+      <Menu></Menu>
 
 
+      </div>
     </>
 
   )
