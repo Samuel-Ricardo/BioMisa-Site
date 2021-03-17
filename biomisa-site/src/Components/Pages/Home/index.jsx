@@ -1,10 +1,9 @@
 import React from 'react'
-
 import './Home.css'
 
+import DynamicHeader from '../../DynamicHeader';
+
 const HomePage = (props) => {
-
-
 
   return (
 
@@ -19,6 +18,8 @@ const HomePage = (props) => {
 
 
       </section>
+
+      <></>
 
 
     </>

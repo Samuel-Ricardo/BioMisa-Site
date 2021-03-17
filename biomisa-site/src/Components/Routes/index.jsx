@@ -2,8 +2,6 @@ import React from 'react'
 
 import {Switch, Route} from 'react-router-dom'
 
-import DynamicHeader from '../DynamicHeader';
-
 import images from '../../Images'
 
 import HomePage from '../Pages/Home'
@@ -24,6 +22,7 @@ export default () => {
 
       <Route exact path='/'>
 
+        <HomePage perfilImage={perfilImage}></HomePage>
 
       </Route>
 
