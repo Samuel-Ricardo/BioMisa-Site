@@ -21,7 +21,7 @@
   align-items: center;
   justify-content: space-between;
 
-  margin: 0px 60px 0px 60px;
+  margin: 0px 80pt 0px 50pt;
 
   width: 100%;
 }
@@ -42,5 +42,37 @@
 
   font-size: 16pt;
   font-weight: bold;
+
+}
+
+.Header--logo {
+
+  position: absolute;
+
+  width: 60pt;
+  height: 60pt;
+}
+
+.Header--logo .PerfilImage--Background{
+
+  position: absolute;
+
+  width: 60pt;
+  height: 60pt;
+
+  margin-top: -25pt;
+  margin-left: -15pt;
+
+}
+
+.Header--perfil-image .PerfilImage--Background{
+
+  position: absolute;
+
+  width: 60pt;
+  height: 60pt;
+
+  margin-top: -25pt;
+  margin-left: -50pt;
 
 }

@@ -11,7 +11,7 @@ const CreditsPage = (props) => {
     <>
 
       <header>
-        <DynamicHeader screenName={'Nervous System'} screenMap="Article" perfilImage={props.perfilImage}/>
+        <DynamicHeader screenName={'Participants'} screenMap="Credits" perfilImage={props.perfilImage}/>
       </header>
 
       <div className="Credits--Display">
@@ -20,11 +20,9 @@ const CreditsPage = (props) => {
 
         <p>Pedro :()</p>
 
-
       </section>
 
-      <Menu></Menu>
-
+        <Menu></Menu>
 
       </div>
     </>

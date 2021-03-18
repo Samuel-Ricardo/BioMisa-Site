@@ -4,6 +4,7 @@ import './Home.css'
 import DynamicHeader from '../../DynamicHeader';
 import Menu from '../../Menu'
 
+
 const HomePage = (props) => {
 
   return (

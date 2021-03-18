@@ -12,7 +12,11 @@ export default (props) => {
 
     <header className='Header'>
 
-      <PerfilImage src={Images.BIOMISA_LOGO}/>
+      <div className="Header--logo">
+        <PerfilImage src={Images.BIOMISA_LOGO}/>
+      </div>
+
+
 
       <section className="text-area">
 
@@ -25,6 +29,10 @@ export default (props) => {
         </div>
 
       </section>
+
+      <div className="Header--perfil-image">
+        <PerfilImage src={Images.SAMUEL} />
+      </div>
 
     </header>
 

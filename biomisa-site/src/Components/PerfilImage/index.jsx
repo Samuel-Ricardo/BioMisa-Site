@@ -6,6 +6,10 @@ const fs = require('fs')
 
 export default (props) => {
 
+  const absolute = props.absolute
+
+  if(true)
+
   return (
 
     <div className='PerfilImage--Background'>
