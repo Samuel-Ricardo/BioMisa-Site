@@ -1,10 +1,10 @@
 import React from 'react'
-import './Content.css'
+import './Credits.css'
 
 import DynamicHeader from '../../DynamicHeader';
 import Menu from '../../Menu'
 
-const ContentPage = (props) => {
+const CreditsPage = (props) => {
 
   return (
 
@@ -14,9 +14,9 @@ const ContentPage = (props) => {
         <DynamicHeader screenName={'Nervous System'} screenMap="Article" perfilImage={props.perfilImage}/>
       </header>
 
-      <div className="Content--Display">
+      <div className="Credits--Display">
 
-      <section className='Content--Section' style={{ paddingLeft: 30 }}>
+      <section className='Credits--Section' style={{ paddingLeft: 30 }}>
 
         <p>Pedro :()</p>
 
@@ -32,4 +32,4 @@ const ContentPage = (props) => {
   )
 }
 
-export default ContentPage;
+export default CreditsPage;

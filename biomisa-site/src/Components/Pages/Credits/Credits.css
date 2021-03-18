@@ -1,0 +1,19 @@
+
+.Credits--Display{
+
+  position: relative;
+
+  /*justify-content: space-between;*/
+
+  width: 100%;
+
+}
+
+.Credits--Section{
+
+  display: inline-block;
+  width: 79%;
+}
+
+
+

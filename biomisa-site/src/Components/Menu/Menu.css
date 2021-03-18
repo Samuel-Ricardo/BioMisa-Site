@@ -5,6 +5,7 @@
 
   padding-left: 10pt;
 
+
   height: 100%;
   min-width: 100px;
   width: 16.3%;
@@ -16,6 +17,16 @@
   color: white;
   font-size: 15pt;
   font-weight: bolder;
+}
+
+.Menu h2 {
+
+  padding-bottom: 20px;
+  padding-top: 20px
+}
+
+.Menu .pages{
+  padding-left: 10px;
 }
 
 
