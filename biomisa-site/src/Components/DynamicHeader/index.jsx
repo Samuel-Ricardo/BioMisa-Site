@@ -31,7 +31,7 @@ export default (props) => {
       </section>
 
       <div className="Header--perfil-image">
-        <PerfilImage src={Images.SAMUEL} />
+        <PerfilImage src={props.perfilImage} />
       </div>
 
     </header>

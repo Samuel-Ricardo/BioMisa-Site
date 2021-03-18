@@ -55,15 +55,14 @@
 
   position: relative;
 
-  width: 120%;
-  height: 120%;
+  width: 130%;
+  height: 130%;
 }
 
 .Header--perfil-image .PerfilImage--Background{
 
   position: absolute;
 
-  background-color: #fe5d00;
   border-style: solid;
   border-color:#4ce300;
   border-width: 5px;
