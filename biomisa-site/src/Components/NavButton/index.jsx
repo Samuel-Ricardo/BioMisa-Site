@@ -9,7 +9,12 @@ export default (props) => {
   return (
 
     <div className='nav-button'>
-      <NavLink to={props.link} > {props.children} </NavLink>
+      <p><NavLink to={props.link} > {props.children} </NavLink></p>
+
+        <div className="border--bar">
+
+        </div>
+
     </div>
   )
 }

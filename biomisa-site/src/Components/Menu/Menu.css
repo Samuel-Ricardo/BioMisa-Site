@@ -3,7 +3,7 @@
   float: right;
 
   padding-right: 20pt;
-  padding-left: 5pt;
+  padding-left: 10pt;
 
   height: 100%;
   min-width: 100px;
@@ -16,3 +16,5 @@
   font-size: 15pt;
   font-weight: bolder;
 }
+
+

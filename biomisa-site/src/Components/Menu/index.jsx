@@ -7,10 +7,10 @@ export default (props) => {
 
   return (
 
-    <section className="Menu">
+    <nav className="Menu">
 
-      <NavButton link='/'> Pedro º-º </NavButton>
+        <p><NavButton link='/'> Pedro º-º </NavButton></p>
 
-    </section>
+    </nav>
   )
 }
