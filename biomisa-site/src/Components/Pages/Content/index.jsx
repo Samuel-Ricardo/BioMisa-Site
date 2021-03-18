@@ -14,7 +14,7 @@ const ContentPage = (props) => {
         <DynamicHeader screenName={'Nervous System'} screenMap="Article" perfilImage={props.perfilImage}/>
       </header>
 
-      <div className="Home--Display">
+      <div className="Content--Display">
 
       <section className='Content--Section' style={{ paddingLeft: 30 }}>
 
