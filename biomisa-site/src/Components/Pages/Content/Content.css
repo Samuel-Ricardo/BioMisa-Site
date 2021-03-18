@@ -1,5 +1,5 @@
 
-.Home--Display{
+.Content--Display{
 
   position: relative;
 
@@ -7,15 +7,12 @@
 
   width: 100%;
 
-  background-color: blue;
 }
 
-.Home--Section{
+.Content--Section{
 
   display: inline-block;
-  width: 79%;
-
-  background-color: red;
+  width: 100%;
 }
 
 

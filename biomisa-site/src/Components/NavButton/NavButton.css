@@ -2,6 +2,14 @@
 
   background-color: transparent;
 
+  padding: 0px;
+  line-height: 0px;
+}
+
+.nav-link{
+  padding-bottom: 0px;
+  margin: 0px;
+  line-height: 0px;
 }
 
 .nav-button a {
@@ -47,7 +55,7 @@ nav .active {
 
 .nav-button:hover .nav-button--border-bar{
 
-  width: 100%;
+  width: 90%;
   height: 2pt;
 }
 

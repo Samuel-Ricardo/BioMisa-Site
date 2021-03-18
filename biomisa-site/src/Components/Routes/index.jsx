@@ -5,6 +5,7 @@ import {Switch, Route} from 'react-router-dom'
 import images from '../../Images'
 
 import HomePage from '../Pages/Home'
+import ContentPage from '../Pages/Content'
 
 export default () => {
 
@@ -23,6 +24,12 @@ export default () => {
       <Route exact path='/'>
 
         <HomePage perfilImage={perfilImage}></HomePage>
+
+      </Route>
+
+      <Route exact path='/content'>
+
+        <ContentPage perfilImage={perfilImage}/>
 
       </Route>
 

@@ -10,11 +10,10 @@ export default (props) => {
   return (
 
     <div className='nav-button'>
-      <p><NavLink to={props.link} > {props.children} </NavLink></p>
 
-        <div className="nav-button--border-bar">
+      <p><NavLink to={props.link} className='nav-link'> {props.children} </NavLink></p>
 
-        </div>
+        <div className="nav-button--border-bar"></div>
 
     </div>
   )

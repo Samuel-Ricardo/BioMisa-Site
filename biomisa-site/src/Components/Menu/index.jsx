@@ -9,9 +9,9 @@ export default (props) => {
 
     <nav className="Menu">
 
-      <p><NavButton link='/'> Pedro º-º </NavButton></p>
+      <p><NavButton link='/'> Home Page </NavButton></p>
 
-      <p><NavButton link='/carlos'> Carlos 0-0 </NavButton></p>
+      <p><NavButton link='/content'> Content </NavButton></p>
 
     </nav>
   )

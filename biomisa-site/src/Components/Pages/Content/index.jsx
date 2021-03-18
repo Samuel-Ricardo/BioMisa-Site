@@ -1,22 +1,22 @@
 import React from 'react'
-import './Home.css'
+import './Content.css'
 
 import DynamicHeader from '../../DynamicHeader';
 import Menu from '../../Menu'
 
-const HomePage = (props) => {
+const ContentPage = (props) => {
 
   return (
 
     <>
 
       <header>
-        <DynamicHeader screenName={'Welcome'} screenMap="Home Screen" perfilImage={props.perfilImage}/>
+        <DynamicHeader screenName={'Nervous System'} screenMap="Article" perfilImage={props.perfilImage}/>
       </header>
 
       <div className="Home--Display">
 
-      <section className='Home--Section' style={{ paddingLeft: 30 }}>
+      <section className='Content--Section' style={{ paddingLeft: 30 }}>
 
         <p>Pedro >:()</p>
 
@@ -32,4 +32,4 @@ const HomePage = (props) => {
   )
 }
 
-export default HomePage;
+export default ContentPage;
