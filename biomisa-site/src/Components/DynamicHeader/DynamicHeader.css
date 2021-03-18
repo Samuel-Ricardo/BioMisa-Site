@@ -45,6 +45,39 @@
 
 }
 
+.Header--perfil-image  .PerfilImage{
+
+  margin-left: -10px;
+
+  border-radius: 100%;
+  border-width: 0;
+  border-color: #4ce300;
+
+  position: relative;
+
+  width: 120%;
+  height: 120%;
+}
+
+.Header--perfil-image .PerfilImage--Background{
+
+  position: absolute;
+
+  background-color: #fe5d00;
+  border-style: solid;
+  border-color:#4ce300;
+  border-width: 5px;
+
+  align-items: flex-end;
+
+  width: 65pt;
+  height: 65pt;
+
+  margin-top: -30pt;
+  margin-left: -55pt;
+
+}
+
 .Header--logo {
 
   position: absolute;
@@ -65,14 +98,4 @@
 
 }
 
-.Header--perfil-image .PerfilImage--Background{
 
-  position: absolute;
-
-  width: 60pt;
-  height: 60pt;
-
-  margin-top: -25pt;
-  margin-left: -50pt;
-
-}
