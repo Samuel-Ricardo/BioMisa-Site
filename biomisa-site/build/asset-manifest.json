@@ -1,24 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.5e1e9bb8.chunk.css",
-    "main.js": "/static/js/main.86fa4287.chunk.js",
-    "main.js.map": "/static/js/main.86fa4287.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.47aad590.js",
-    "runtime-main.js.map": "/static/js/runtime-main.47aad590.js.map",
-    "static/js/2.16c3ed88.chunk.js": "/static/js/2.16c3ed88.chunk.js",
-    "static/js/2.16c3ed88.chunk.js.map": "/static/js/2.16c3ed88.chunk.js.map",
-    "static/js/3.86463841.chunk.js": "/static/js/3.86463841.chunk.js",
-    "static/js/3.86463841.chunk.js.map": "/static/js/3.86463841.chunk.js.map",
+    "main.css": "/static/css/main.980ca5f9.chunk.css",
+    "main.js": "/static/js/main.c3d11307.chunk.js",
+    "main.js.map": "/static/js/main.c3d11307.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.dec8506c.js",
+    "runtime-main.js.map": "/static/js/runtime-main.dec8506c.js.map",
+    "static/js/2.587f2ea7.chunk.js": "/static/js/2.587f2ea7.chunk.js",
+    "static/js/2.587f2ea7.chunk.js.map": "/static/js/2.587f2ea7.chunk.js.map",
+    "static/js/3.c4c85eac.chunk.js": "/static/js/3.c4c85eac.chunk.js",
+    "static/js/3.c4c85eac.chunk.js.map": "/static/js/3.c4c85eac.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.5e1e9bb8.chunk.css.map": "/static/css/main.5e1e9bb8.chunk.css.map",
-    "static/js/2.16c3ed88.chunk.js.LICENSE.txt": "/static/js/2.16c3ed88.chunk.js.LICENSE.txt",
+    "static/css/main.980ca5f9.chunk.css.map": "/static/css/main.980ca5f9.chunk.css.map",
+    "static/js/2.587f2ea7.chunk.js.LICENSE.txt": "/static/js/2.587f2ea7.chunk.js.LICENSE.txt",
     "static/media/Biomisa-banner.10c538c4.jpeg": "/static/media/Biomisa-banner.10c538c4.jpeg",
-    "static/media/Biomisa.d59f9457.jpeg": "/static/media/Biomisa.d59f9457.jpeg"
+    "static/media/Biomisa.d59f9457.jpeg": "/static/media/Biomisa.d59f9457.jpeg",
+    "static/media/Debbye.bec0005f.png": "/static/media/Debbye.bec0005f.png",
+    "static/media/Milena.4e7b63a9.png": "/static/media/Milena.4e7b63a9.png",
+    "static/media/Samuel.7e9e9eca.png": "/static/media/Samuel.7e9e9eca.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.47aad590.js",
-    "static/js/2.16c3ed88.chunk.js",
-    "static/css/main.5e1e9bb8.chunk.css",
-    "static/js/main.86fa4287.chunk.js"
+    "static/js/runtime-main.dec8506c.js",
+    "static/js/2.587f2ea7.chunk.js",
+    "static/css/main.980ca5f9.chunk.css",
+    "static/js/main.c3d11307.chunk.js"
   ]
 }
