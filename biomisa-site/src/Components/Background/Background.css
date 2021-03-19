@@ -13,7 +13,7 @@
 
 .Pane{
 
-  position: absolute;
+  position: relative;
 
   margin-top: -10vh;
 

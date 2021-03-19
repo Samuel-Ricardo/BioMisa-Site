@@ -1,21 +1,22 @@
 
-.Content--Display{
+#Content--Display{
 
-  position: relative;
+  display: flex;
 
-  /*justify-content: space-between;*/
+  justify-content: space-between;
 
   width: 100%;
-
 
   word-wrap: break-word;
   overflow-wrap: break-word;
   white-space: normal;
+
+
 }
 
 .Content--Section{
 
-  max-width: 79%;
+
 
   position: relative;
 
@@ -26,12 +27,12 @@
 
  line-height: normal;
 
+
 }
 
-.content--menu{
+.Menu{
 
-  background-color: aqua;
-  height: 100%;
+  height: auto;
+
 }
-
 

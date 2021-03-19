@@ -2,21 +2,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
 
 .Home--Display{
+  display: flex;
 
-  position: relative;
-
-  /*justify-content: space-between;*/
+  justify-content: space-between;
 
   width: 100%;
+
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  white-space: normal;
 
 }
 
 .Home--Section{
 
-  display: inline-block;
-  width: 79%;
+  position: relative;
+
+  float: left;
+
+  table-layout: fixed;
+
+
+ line-height: normal;
+
 
 }
+
+
 
 .Home-page--title{
 

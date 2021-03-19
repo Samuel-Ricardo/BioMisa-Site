@@ -1,18 +1,28 @@
 
 .Credits--Display{
 
-  position: relative;
+  display: flex;
 
-  /*justify-content: space-between;*/
+  justify-content: space-between;
 
   width: 100%;
+
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  white-space: normal;
 
 }
 
 .Credits--Section{
 
-  display: inline-block;
-  width: 79%;
+ position: relative;
+
+  float: left;
+
+  table-layout: fixed;
+
+
+ line-height: normal;
 }
 
 

@@ -35,8 +35,6 @@ const HomePage = (props) => {
       </section>
 
       <Menu></Menu>
-
-
       </div>
     </>
 

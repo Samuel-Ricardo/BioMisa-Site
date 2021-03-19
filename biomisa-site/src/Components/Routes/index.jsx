@@ -7,6 +7,7 @@ import Images from '../../Images'
 import HomePage from '../Pages/Home'
 import ContentPage from '../Pages/Content'
 import CreditsPage from '../Pages/Credits'
+import Menu from '../Menu'
 
 export default () => {
 
@@ -50,7 +51,7 @@ export default () => {
 
       <Route exact path='/content'>
 
-        <ContentPage perfilImage={Images.DEBORA}/>
+        <ContentPage perfilImage={Images.DEBORA} />
 
       </Route>
 

@@ -21,9 +21,7 @@ const CreditsPage = (props) => {
         <p>Pedro :()</p>
 
       </section>
-
-        <Menu></Menu>
-
+      <Menu></Menu>
       </div>
     </>
 

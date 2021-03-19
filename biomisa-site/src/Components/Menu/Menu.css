@@ -1,15 +1,18 @@
 .Menu{
 
   position: relative;
+
   float: right;
 
-
   padding-left: 10pt;
+  padding-right: 15pt;
 
 
-  height: 100%;
-  min-width: 100px;
+  /*95.3%*/
 
+  height: auto;
+
+  min-width: max-content;
 
   background-color: #4ce300;
 
