@@ -3,6 +3,7 @@ import './Home.css'
 
 import DynamicHeader from '../../DynamicHeader';
 import Menu from '../../Menu'
+import StyledTitle from '../../StyledTitle'
 
 
 const HomePage = (props) => {
@@ -21,7 +22,7 @@ const HomePage = (props) => {
 
       <section className='Home--Section' style={{ paddingLeft: 30 }}>
 
-        <p>Pedro :()</p>
+        <StyledTitle className='Home-page--title'>Hello Visitor, welcome :) </StyledTitle>
 
 
       </section>
