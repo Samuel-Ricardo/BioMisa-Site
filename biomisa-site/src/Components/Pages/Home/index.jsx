@@ -7,6 +7,8 @@ import Menu from '../../Menu'
 
 const HomePage = (props) => {
 
+  document.title = 'BioMisa - HomePage'
+
   return (
 
     <>
@@ -19,7 +21,7 @@ const HomePage = (props) => {
 
       <section className='Home--Section' style={{ paddingLeft: 30 }}>
 
-        <p>Pedro >:()</p>
+        <p>Pedro :()</p>
 
 
       </section>
