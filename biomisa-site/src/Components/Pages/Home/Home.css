@@ -1,4 +1,6 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+
 .Home--Display{
 
   position: relative;
@@ -19,9 +21,30 @@
 .Home-page--title{
 
   margin-top: 100px;
+
+}
+
+.Home-page--title h1 {
+
+  font-family: 'Berkshire Swash', cursive;
+  font-size: 50px;
   text-align: center;
 
-  font-size: 30pt;
+  color: #08da94;
+  text-shadow: 1px 1px black;
+
+}
+
+.Home-page--title h2 {
+
+  font-family: 'Berkshire Swash', cursive;
+  font-size: 50px;
+
+  margin-left: 30px;
+
+  color: #08da94;
+  text-shadow: 1px 1px black;
+
 }
 
 
