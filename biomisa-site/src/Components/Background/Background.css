@@ -22,25 +22,24 @@
 
 */
 
-  padding: 0.00001px;
+  padding: 0px;
 
   background-color: white;
 
   color: black;
 
-  border-width: 1px;
-  border-radius: 30px;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 32px;
   border-color: #4ce300;
-
 
   z-index: 999;
 
   max-width: 90vw;
 
-  height: auto;
+  height: max-content;
 
   word-wrap: break-word;
-
 }
 
 
