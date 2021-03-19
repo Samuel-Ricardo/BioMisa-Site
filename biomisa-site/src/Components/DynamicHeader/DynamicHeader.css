@@ -11,6 +11,7 @@
   color: white;
 
   background-color: #4ce300;
+  
 }
 
 .text-area{
@@ -48,7 +49,7 @@
 .Header--perfil-image  .PerfilImage{
 
   margin-left: -10px;
-  
+
   border-radius: 100%;
   border-width: 0;
   border-color: #4ce300;

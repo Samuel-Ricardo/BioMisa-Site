@@ -7,13 +7,31 @@
 
   width: 100%;
 
+
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  white-space: normal;
 }
 
 .Content--Section{
 
-  display: inline-block;
-  width: 79%;
+  max-width: 79%;
+
+  position: relative;
+
+  float: left;
+
+  table-layout: fixed;
+
+
+ line-height: normal;
+
 }
 
+.content--menu{
+
+  background-color: aqua;
+  height: 100%;
+}
 
 

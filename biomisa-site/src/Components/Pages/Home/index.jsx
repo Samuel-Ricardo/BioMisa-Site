@@ -23,7 +23,7 @@ const HomePage = (props) => {
       <section className='Home--Section' style={{ paddingLeft: 30 }}>
 
           <div className="Home-page--title">
-            <h1>Hello Visitor, welcome :) </h1>
+            <h1>|| Hello Visitor | welcome :) ||</h1>
           </div>
 
           <div className="Home-page--title">
