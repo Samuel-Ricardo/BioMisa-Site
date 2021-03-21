@@ -30,29 +30,6 @@
 
 }
 
-.Summary .Link-Button a {
-
-  color: #0f9b0f;
-}
-
-.Summary .menu--section{
-
-  border-radius: 10px;
-
-  padding-left: 10px;
-
-  border-style: solid;
-  border-width: 10px 0 10px 0;
-  border-color: #08da94;
-}
-
-.Summary {
-
-  margin-left: 45px;
-  margin-bottom: 20pt;
-
-}
-
 .Home-page--title{
 
   margin-top: 100px;
@@ -80,4 +57,28 @@
   color: #08da94;
   text-shadow: 1px 1px black;
 
+}
+
+
+.Summary {
+
+  margin-left: 45px;
+  margin-bottom: 20pt;
+
+}
+
+.Summary .menu--section{
+
+  border-radius: 10px;
+
+  padding-left: 10px;
+
+  border-style: solid;
+  border-width: 10px 0 10px 0;
+  border-color: #08da94;
+}
+
+.Summary .Link-Button a {
+
+  color: #0f9b0f;
 }
