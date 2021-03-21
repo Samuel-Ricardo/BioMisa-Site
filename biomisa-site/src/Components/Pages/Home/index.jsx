@@ -28,7 +28,7 @@ const HomePage = (props) => {
           </div>
 
           <div className="Home-page--title">
-            <h2>Summary: </h2>
+            <h2> Summary: </h2>
           </div>
 
 
@@ -38,7 +38,39 @@ const HomePage = (props) => {
 
                 <LinkButton link='/content#Intro'> - Introduction </LinkButton>
 
+                <LinkButton link='/content#Intro'> - Introduction </LinkButton>
+
+              <LinkButton link='/content#Intro'> - Introduction </LinkButton>
+
+              <LinkButton link='/content#Intro'> - Introduction </LinkButton>
+
+            </MenuSection>
+
+            <MenuSection title='Nervous System'>
+
+                <LinkButton link='/content#Intro'> - Introduction </LinkButton>
+
+                <LinkButton link='/content#Intro'> - Introduction </LinkButton>
+
+              <LinkButton link='/content#Intro'> - Introduction </LinkButton>
+
+              <LinkButton link='/content#Intro'> - Introduction </LinkButton>
+
               </MenuSection>
+
+
+              <MenuSection title='Nervous System'>
+
+<LinkButton link='/content#Intro'> - Introduction </LinkButton>
+
+<LinkButton link='/content#Intro'> - Introduction </LinkButton>
+
+<LinkButton link='/content#Intro'> - Introduction </LinkButton>
+
+<LinkButton link='/content#Intro'> - Introduction </LinkButton>
+
+</MenuSection>
+
 
             </Summary>
       </section>

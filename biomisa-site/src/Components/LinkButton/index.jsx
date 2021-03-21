@@ -7,6 +7,8 @@ export default (props) => {
   return (
     <div className='Link-Button'>
 
+      <div className="Link-Button--border-bar"></div>
+
       <p><a href={props.link} > {props.children} </a></p>
 
       <div className="Link-Button--border-bar"></div>
