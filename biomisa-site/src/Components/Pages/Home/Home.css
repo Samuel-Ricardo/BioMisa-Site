@@ -1,5 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre&display=swap');
+
 
 .Home--Display{
   display: flex;
@@ -23,13 +25,32 @@
   table-layout: fixed;
 
 
- line-height: normal;
+  line-height: normal;
 
 
 }
 
+.Summary .Link-Button a {
+
+  color: #0f9b0f;
+}
+
+.Summary .menu--section{
+
+  border-radius: 10px;
+
+  padding-left: 10px;
+
+  border-style: solid;
+  border-width: 10px 0 10px 0;
+  border-color: #08da94;
+}
+
 .Summary {
-  
+
+  margin-left: 45px;
+  margin-bottom: 20pt;
+
 }
 
 .Home-page--title{
@@ -60,6 +81,3 @@
   text-shadow: 1px 1px black;
 
 }
-
-
-

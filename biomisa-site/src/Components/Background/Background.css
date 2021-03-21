@@ -13,6 +13,10 @@
 
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 .Pane{
 
   position: relative;

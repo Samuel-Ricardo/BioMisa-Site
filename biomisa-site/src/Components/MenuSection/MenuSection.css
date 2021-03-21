@@ -1,4 +1,4 @@
-#menu--section{
+.menu--section{
 
   padding-top: -5px;
   margin-top: 10px;
@@ -9,7 +9,7 @@
 
 }
 
-.section--item{
+.section--itens{
   padding-left: 10px;
 }
 

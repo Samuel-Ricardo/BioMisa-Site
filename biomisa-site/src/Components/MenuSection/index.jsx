@@ -5,10 +5,10 @@ const MenuSection = (props) => {
 
   return (
 
-    <section id='menu--section'>
+    <section className='menu--section'>
       <h2>{props.title}</h2>
 
-      <div className='section--item'>
+      <div className='section--itens'>
 
         {props.children}
 

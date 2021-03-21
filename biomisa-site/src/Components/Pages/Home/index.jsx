@@ -3,11 +3,9 @@ import './Home.css'
 
 import DynamicHeader from '../../DynamicHeader';
 import Menu from '../../Menu';
-import Summary from '../../Summary';
-import NavButton from '../../NavButton';
-import { Link } from 'react-router-dom';
-import LinkButton from '../../LinkButton';
 import MenuSection from '../../MenuSection';
+import Summary from '../../Summary';
+import LinkButton from '../../LinkButton';
 
 const HomePage = (props) => {
 
@@ -30,7 +28,7 @@ const HomePage = (props) => {
           </div>
 
           <div className="Home-page--title">
-            <h2>Sumário: </h2>
+            <h2>Summary: </h2>
           </div>
 
 
@@ -38,7 +36,7 @@ const HomePage = (props) => {
 
               <MenuSection title='Nervous System'>
 
-                <LinkButton> Introduction </LinkButton>
+                <LinkButton link='/content#Intro'> - Introduction </LinkButton>
 
               </MenuSection>
 
