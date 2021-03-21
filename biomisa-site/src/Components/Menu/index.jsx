@@ -7,7 +7,6 @@ import MenuSection from '../MenuSection'
 export default (props) => {
 
 
-
   return (
 
     <nav className="Menu">
@@ -22,7 +21,7 @@ export default (props) => {
 
       </MenuSection>
 
-      
+
 
 
       {props.children}

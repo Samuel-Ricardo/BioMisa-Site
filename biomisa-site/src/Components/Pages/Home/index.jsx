@@ -3,8 +3,9 @@ import './Home.css'
 
 import DynamicHeader from '../../DynamicHeader';
 import Menu from '../../Menu';
-
-
+import Summary from '../../Summary';
+import NavButton from '../../NavButton';
+import { Link } from 'react-router-dom';
 
 const HomePage = (props) => {
 
@@ -31,13 +32,16 @@ const HomePage = (props) => {
           </div>
 
 
+            <Summary>
 
+              <Link to='/'> Pedro </Link>
+
+            </Summary>
       </section>
 
       <Menu></Menu>
       </div>
     </>
-
   )
 }
 
