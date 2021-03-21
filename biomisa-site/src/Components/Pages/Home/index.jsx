@@ -7,6 +7,7 @@ import Summary from '../../Summary';
 import NavButton from '../../NavButton';
 import { Link } from 'react-router-dom';
 import LinkButton from '../../LinkButton';
+import MenuSection from '../../MenuSection';
 
 const HomePage = (props) => {
 
@@ -25,7 +26,7 @@ const HomePage = (props) => {
       <section className='Home--Section' style={{ paddingLeft: 30 }}>
 
           <div className="Home-page--title">
-            <h1>|| Hello Visitor | welcome :) ||</h1>
+            <h1>|| Hello Visitor | Welcome :) ||</h1>
           </div>
 
           <div className="Home-page--title">
@@ -35,7 +36,11 @@ const HomePage = (props) => {
 
             <Summary>
 
-              <LinkButton link='/'> Pedro :() </LinkButton>
+              <MenuSection title='Nervous System'>
+
+                <LinkButton> Introduction </LinkButton>
+
+              </MenuSection>
 
             </Summary>
       </section>

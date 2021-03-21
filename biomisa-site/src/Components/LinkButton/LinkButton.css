@@ -1,4 +1,10 @@
-.ButtonLink a {
+.Link-Button a {
 
   text-decoration: none;
+
+  color: black;
+
+  font-weight: bold;
+  font-size: 17pt;
+  
 }
