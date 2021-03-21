@@ -5,8 +5,8 @@ const MenuSection = (props) => {
 
   return (
 
-    <section>
-      <h2>props.title</h2>
+    <section id='menu--section'>
+      <h2>{props.title}</h2>
 
       <div className='section--item'>
 

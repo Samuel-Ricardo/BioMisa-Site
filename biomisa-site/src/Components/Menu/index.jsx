@@ -2,6 +2,7 @@ import React from 'react'
 import './Menu.css'
 
 import NavButton from '../NavButton'
+import MenuSection from '../MenuSection'
 
 export default (props) => {
 
@@ -11,19 +12,18 @@ export default (props) => {
 
     <nav className="Menu">
 
-      <section>
-        <h2>Pages</h2>
+      <MenuSection title='Pages'>
 
-        <div/>
+        <NavButton link='/'> Home Page </NavButton>
 
-        <div className='section--item'>
-          <NavButton link='/'> Home Page </NavButton>
+        <NavButton link='/content'> Content </NavButton>
 
-          <NavButton link='/content'> Content </NavButton>
+        <NavButton link='/Credits'> Credits </NavButton>
 
-          <NavButton link='/Credits'> Credits </NavButton>
-        </div>
-      </section>
+      </MenuSection>
+
+      
+
 
       {props.children}
 
