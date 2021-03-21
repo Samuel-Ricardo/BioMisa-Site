@@ -2,7 +2,7 @@ import React from 'react'
 import './Home.css'
 
 import DynamicHeader from '../../DynamicHeader';
-import Menu from '../../Menu'
+import Menu from '../../Menu';
 
 
 

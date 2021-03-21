@@ -5,23 +5,27 @@ import NavButton from '../NavButton'
 
 export default (props) => {
 
-  
+
 
   return (
 
     <nav className="Menu">
 
-      <h2>Pages</h2>
+      <section>
+        <h2>Pages</h2>
 
-      <div/>
+        <div/>
 
-      <div className='pages'>
-        <p><NavButton link='/'> Home Page </NavButton></p>
+        <div className='section--item'>
+          <NavButton link='/'> Home Page </NavButton>
 
-        <p><NavButton link='/content'> Content </NavButton></p>
+          <NavButton link='/content'> Content </NavButton>
 
-        <p><NavButton link='/Credits'> Credits </NavButton></p>
-      </div>
+          <NavButton link='/Credits'> Credits </NavButton>
+        </div>
+      </section>
+
+      {props.children}
 
     </nav>
   )
