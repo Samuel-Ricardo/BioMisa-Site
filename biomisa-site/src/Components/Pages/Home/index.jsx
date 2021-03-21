@@ -6,6 +6,7 @@ import Menu from '../../Menu';
 import Summary from '../../Summary';
 import NavButton from '../../NavButton';
 import { Link } from 'react-router-dom';
+import LinkButton from '../../LinkButton';
 
 const HomePage = (props) => {
 
@@ -34,7 +35,7 @@ const HomePage = (props) => {
 
             <Summary>
 
-              <Link to='/'> Pedro </Link>
+              <LinkButton link='/'> Pedro :() </LinkButton>
 
             </Summary>
       </section>

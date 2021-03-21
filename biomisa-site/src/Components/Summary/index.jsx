@@ -5,7 +5,7 @@ const Summary = (props) => {
 
   return (
     <nav className='Summary'>
-      <div className="Summary--item">
+      <div className="Summary--itens">
         {props.children}
       </div>
     </nav>
