@@ -38,39 +38,7 @@ const HomePage = (props) => {
 
                 <LinkButton link='/content#Intro'> - Introduction </LinkButton>
 
-                <LinkButton link='/content#Intro'> - Introduction </LinkButton>
-
-              <LinkButton link='/content#Intro'> - Introduction </LinkButton>
-
-              <LinkButton link='/content#Intro'> - Introduction </LinkButton>
-
-            </MenuSection>
-
-            <MenuSection title='Nervous System'>
-
-                <LinkButton link='/content#Intro'> - Introduction </LinkButton>
-
-                <LinkButton link='/content#Intro'> - Introduction </LinkButton>
-
-              <LinkButton link='/content#Intro'> - Introduction </LinkButton>
-
-              <LinkButton link='/content#Intro'> - Introduction </LinkButton>
-
               </MenuSection>
-
-
-              <MenuSection title='Nervous System'>
-
-<LinkButton link='/content#Intro'> - Introduction </LinkButton>
-
-<LinkButton link='/content#Intro'> - Introduction </LinkButton>
-
-<LinkButton link='/content#Intro'> - Introduction </LinkButton>
-
-<LinkButton link='/content#Intro'> - Introduction </LinkButton>
-
-</MenuSection>
-
 
             </Summary>
       </section>
