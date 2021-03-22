@@ -25,28 +25,35 @@ const HomePage = (props) => {
             <NavButton link='/'>Home</NavButton>
             </div>
 
-
             <NavButton link='/content'>| Content</NavButton>
 
             <NavButton link='/Credits'>| Credits</NavButton>
           </div>
 
         </DynamicHeader>
+
       </header>
 
       <div className="Home--Display">
 
-      <section className='Home--Section' style={{ paddingLeft: 30 }}>
+      <section className='Home--Title--Section' style={{ paddingLeft: 30 }}>
 
           <div className="Home-page--title">
-            <h1>|| Hello Visitor | Welcome :) ||</h1>
+            <p>A BETTER WAY</p>
+            <p className='orange--title'>TO LEARN BIOLOGY</p>
           </div>
+
+        </section>
+
+        <div className="orange-border-bar"/>
+
+        <section className="Home-guide--section">
 
           <div className="Home-page--title">
-            <h2> Summary: </h2>
+              <h2> Guide: </h2>
           </div>
 
-      </section>
+        </section>
 
         {/*<Menu></Menu>*/}
 

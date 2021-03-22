@@ -2,6 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
 .Home--Display{
   display: flex;
 
@@ -35,51 +38,52 @@
 
 }
 
-.Home-page--title h1 {
+.Home--Title--Section {
 
-  font-family: 'Berkshire Swash', cursive;
+  display: flex;
+
+  justify-content: center;
+
+  width: 50%;
+}
+
+.orange-border-bar {
+
+  background-color: #fc5602;
+
+  border-radius: 30px;
+
+  margin-top: 50pt;
+
+  width: 5pt;
+
+  height: 110pt;
+
+}
+
+.Home-guide--section{
+
+  display: flex;
+
+  justify-content: center;
+
+  width: 50%;
+}
+
+.Home-page--title {
+
+  font-family: 'Bebas Neue', cursive;
   font-size: 50px;
   text-align: center;
 
-  color: #08da94;
-  text-shadow: 1px 1px black;
+  color: black;
 
 }
 
-.Home-page--title h2 {
+.Home-page--title .orange--title {
 
-  font-family: 'Berkshire Swash', cursive;
-  font-size: 40px;
+color: #fc5602;
 
-  margin-left: 30px;
-
-  color: #08da94;
-  text-shadow: 1px 1px black;
-
-}
-
-
-.Summary {
-
-  margin-left: 45px;
-  margin-bottom: 20pt;
-
-}
-
-.Summary .menu--section{
-
-  border-radius: 10px;
-
-  padding-left: 10px;
-
-  border-style: solid;
-  border-width: 10px 0 10px 0;
-  border-color: #08da94;
-}
-
-.Summary .Link-Button a {
-
-  color: #0f9b0f;
 }
 
 .nav-link {
@@ -149,4 +153,9 @@
 .Header {
 
   max-height: min-content;
+}
+
+
+.Home--Title--Section{
+
 }
