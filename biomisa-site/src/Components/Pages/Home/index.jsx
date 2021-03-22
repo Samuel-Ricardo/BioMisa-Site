@@ -6,6 +6,7 @@ import Menu from '../../Menu';
 import MenuSection from '../../MenuSection';
 import Summary from '../../Summary';
 import LinkButton from '../../LinkButton';
+import NavButton from '../../NavButton';
 
 const HomePage = (props) => {
 
@@ -16,7 +17,17 @@ const HomePage = (props) => {
     <>
 
       <header>
-        <DynamicHeader screenName={'Welcome'} screenMap="Home Screen" perfilImage={props.perfilImage}/>
+        <DynamicHeader screenName={'Welcome'} perfilImage={props.perfilImage}>
+
+          <div className="headers--pages">
+
+            <NavButton link='/'> || Home </NavButton>
+            <NavButton link='/content'> |  Content </NavButton>
+
+            <NavButton link='/Credits'> | Credits ||</NavButton>
+          </div>
+
+        </DynamicHeader>
       </header>
 
       <div className="Home--Display">

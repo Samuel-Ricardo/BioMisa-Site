@@ -11,16 +11,12 @@
   color: white;
 
   background-color: #4ce300;
-  
+
 }
 
 .text-area{
 
   position: relative;
-
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
 
   margin: 0px 80pt 0px 50pt;
 
@@ -31,20 +27,23 @@
 
   display: inline-block;
 
-  font-size: 20pt;
+  font-size: 22pt;
   font-weight: bold;
 
-
+  margin: 0px;
 }
 
 .ScreenMap{
 
   display: inline-block;
 
-  font-size: 16pt;
+  font-size: 18pt;
   font-weight: bold;
 
+  float: right;
+
 }
+
 
 .Header--perfil-image  .PerfilImage{
 

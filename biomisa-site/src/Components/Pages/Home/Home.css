@@ -82,3 +82,35 @@
 
   color: #0f9b0f;
 }
+
+.nav-link {
+
+  font-size: 15pt;
+  font-weight: bold;
+}
+
+.Header .nav-button{
+
+  display: inline-block;
+
+  margin-top: 9pt;
+  margin-left: 10pt;
+
+
+  padding: 0px;
+}
+
+.headers--pages{
+  display: inline-block;
+
+  float: right;
+
+  margin-right: 10pt;
+}
+
+.Header .nav-button a {
+
+  font-size: 18pt;
+  font-weight:bold;
+}
+

@@ -28,6 +28,11 @@ export default (props) => {
           <p>{props.screenMap}</p>
         </div>
 
+        
+        {props.children}
+
+
+
       </section>
 
       <div className="Header--perfil-image">
