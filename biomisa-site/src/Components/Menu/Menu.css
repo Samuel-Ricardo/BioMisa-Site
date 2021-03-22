@@ -21,6 +21,8 @@
   color: white;
   font-size: 15pt;
   font-weight: bolder;
+
+  transition: all ease-in-out 0.4;
 }
 
 .Menu h2 {

@@ -2,7 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre&display=swap');
 
-
 .Home--Display{
   display: flex;
 
@@ -116,7 +115,7 @@
   padding: 0;
 
   margin-left: 0px;
-  margin-right: 5px;
+  margin-right: 15px;
 }
 
 .Header .nav-button:hover .nav-button--border-bar{
@@ -146,3 +145,8 @@
   border-width: 0px 0px 5px 0px;
 }
 */
+
+.Header {
+
+  max-height: min-content;
+}

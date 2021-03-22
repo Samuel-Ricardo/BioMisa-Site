@@ -46,19 +46,10 @@ const HomePage = (props) => {
             <h2> Summary: </h2>
           </div>
 
-
-            <Summary>
-
-              <MenuSection title='Nervous System'>
-
-                <LinkButton link='/content#Intro'> - Introduction </LinkButton>
-
-              </MenuSection>
-
-            </Summary>
       </section>
 
-      <Menu></Menu>
+        {/*<Menu></Menu>*/}
+
       </div>
     </>
   )
