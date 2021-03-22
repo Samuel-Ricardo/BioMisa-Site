@@ -3,7 +3,9 @@
   background-color: transparent;
 
   margin-bottom: 50px;
-  line-height: 0px;
+
+
+  transition: all ease-in-out 0.3s;
 }
 
 .nav-link{
@@ -58,4 +60,5 @@ nav .active {
   width: 90%;
   height: 2pt;
 }
+
 

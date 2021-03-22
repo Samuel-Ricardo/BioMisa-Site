@@ -21,10 +21,14 @@ const HomePage = (props) => {
 
           <div className="headers--pages">
 
-            <NavButton link='/'> || Home </NavButton>
-            <NavButton link='/content'> |  Content </NavButton>
+            <div className="home--button">
+            <NavButton link='/'>Home</NavButton>
+            </div>
 
-            <NavButton link='/Credits'> | Credits ||</NavButton>
+
+            <NavButton link='/content'>| Content</NavButton>
+
+            <NavButton link='/Credits'>| Credits</NavButton>
           </div>
 
         </DynamicHeader>
