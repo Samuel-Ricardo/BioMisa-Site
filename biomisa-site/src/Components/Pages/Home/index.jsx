@@ -49,13 +49,13 @@ const HomePage = (props) => {
 
         <section className="Home-guide--section">
 
-          <div className="Home-page--title">
+          <div className="Home-page--guide">
             <h2> Guide: </h2>
 
             <Summary>
               <MenuSection>
 
-                <LinkButton link='/'>
+                <LinkButton link='/Content#intro'>
                   Nervous System - Get Started
                 </LinkButton>
 
