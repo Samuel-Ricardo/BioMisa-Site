@@ -48,10 +48,11 @@
   height: max-content;
   width: max-content;
 
+  /*
   border-style: solid;
   border-width: 0px 5px 0px 0px;
   border-color: #fc5602;
-
+  */
 
   margin-top: 10px;
   padding-right: 50px;
@@ -65,13 +66,14 @@
 
   border-radius: 30px;
 
-  margin-top: 50pt;
+  margin-top: 30pt;
 
+  width: 6pt;
 
+  height: 190pt;
 
-  /*
-  height: 165pt;
-  */
+  box-shadow: 0px 0px 10px #fc5602;
+
 }
 
 .Home-guide--section{
@@ -98,7 +100,7 @@
 
 .Home-page--title .orange--title {
 
-color: #fc5602;
+  color: #fc5602;
 
 }
 
