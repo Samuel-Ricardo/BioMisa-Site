@@ -5,7 +5,7 @@ import Biomisa from './Biomisa.jpeg'
 import Samuel from './Samuel.png'
 import Milena from './Milena.png'
 import Deborah from './Debbye.png'
-import Mind from './mind-idea.png'
+import Mind from './Icons/mind-idea.png'
 
 export default {
 
