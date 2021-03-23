@@ -45,9 +45,11 @@ const HomePage = (props) => {
 
         </section>
 
-        <div className="orange-border-bar"></div>
+
 
         <section className="Home-guide--section">
+
+          <div className="orange-border-bar"></div>
 
           <div className="Home-page--guide">
             <h2> Guide: </h2>

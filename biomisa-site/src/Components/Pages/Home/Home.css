@@ -18,25 +18,22 @@
   overflow-wrap: break-word;
   white-space: normal;
 
+  margin-left: -20px;
 }
 
 .Home--Section{
 
   position: relative;
 
-  float: left;
-
   table-layout: fixed;
 
-
-  line-height: normal;
-
+  background-color: crimson;
 
 }
 
 .Home-page--title{
 
-  margin-top: 100px;
+  margin-top: 30pt;
 
 }
 
@@ -48,7 +45,7 @@
 
 
   height: max-content;
-  width: max-content;
+  width: 50%;
 
   /*
   border-style: solid;
@@ -71,9 +68,11 @@
 
   width: 6pt;
 
-  height: 255pt;
+  height: 90%;
 
   box-shadow: 0px 0px 10px #fc5602;
+
+  margin-right: auto;
 
 }
 
@@ -83,14 +82,15 @@
 
   justify-content: center;
 
-  min-width: 50%;
-
+  min-width: 55%;
 
 }
 
 .Home-page--guide {
 
   padding-top: 30px;
+
+  padding-right: 35pt;
 
 }
 
@@ -111,9 +111,13 @@
 
   color: black;
 
+  line-height: normal;
+
 }
 
 .Home-page--title .orange--title {
+
+  margin-top: -25pt;
 
   color: #fc5602;
 
@@ -121,12 +125,14 @@
 
 .home-summary--area  {
 
-  margin-top: 60pt;
-}
+  margin-top: 45pt;
 
+  line-height: normal;
+
+}
 .home-summary--area .Link-Button{
 
-  margin-bottom: 80px;
+ padding-bottom: 15px;
 
 }
 
