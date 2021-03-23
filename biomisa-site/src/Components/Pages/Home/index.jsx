@@ -60,6 +60,14 @@ const HomePage = (props) => {
                     Nervous System - Get Started
                   </LinkButton>
 
+                  <LinkButton link='/credits#Authors'>
+                    Team - Authors
+                  </LinkButton>
+
+                  <LinkButton link='/credits#Sources'>
+                    Teachers - Content Source
+                  </LinkButton>
+
                 </MenuSection>
               </Summary>
             </div>

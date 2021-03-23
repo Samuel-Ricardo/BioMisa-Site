@@ -59,7 +59,6 @@
   margin-top: 10px;
   padding-right: 50px;
 
-  padding-bottom: 50px;
 }
 
 .orange-border-bar {
@@ -68,11 +67,11 @@
 
   border-radius: 30px;
 
-  margin-top: 30pt;
+  margin-top: 15pt;
 
   width: 6pt;
 
-  height: 190pt;
+  height: 255pt;
 
   box-shadow: 0px 0px 10px #fc5602;
 
@@ -86,7 +85,7 @@
 
   min-width: 50%;
 
-  margin-bottom: 100px;
+
 }
 
 .Home-page--guide {
@@ -120,12 +119,18 @@
 
 }
 
-.Summary  {
+.home-summary--area  {
 
   margin-top: 60pt;
 }
 
-.Summary .Link-Button a {
+.home-summary--area .Link-Button{
+
+  margin-bottom: 80px;
+
+}
+
+.home-summary--area .Link-Button a {
 
   font-family:'Nunito', 'Bebas Neue', 'Montserrat', cursive, Arial, Helvetica, sans-serif;;
 
@@ -138,21 +143,21 @@
   color: black;
 }
 
-.Summary .Link-Button:hover .Link-Button--border-bar{
+.home-summary--area .Link-Button:hover .Link-Button--border-bar{
 
   width: 0%;
   height: 0pt;
 
 }
 
-.Summary .Link-Button:hover a{
+.home-summary--area .Link-Button:hover a{
 
   transition: all ease-in 0.3s;
 
   background-color: #ff7b00;
 }
 
-.Summary .menu--section{
+.home-summary--area .menu--section{
 
 
 
