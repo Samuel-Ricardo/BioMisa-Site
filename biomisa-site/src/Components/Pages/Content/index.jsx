@@ -23,15 +23,17 @@ const ContentPage = (props) => {
 
         <section className='Content--Section' style={{ paddingLeft: 30 }}>
 
-        <Summary>
+        <div className="summary--area">
+          <Summary>
 
-          <MenuSection title='Nervous System'>
+            <MenuSection title='Nervous System'>
 
-            <LinkButton link='/content#Intro'> - Introduction </LinkButton>
+              <LinkButton link='/content#Intro'> - Introduction </LinkButton>
 
-          </MenuSection>
+            </MenuSection>
 
-        </Summary>
+          </Summary>
+        </div>
 
           <article>
 

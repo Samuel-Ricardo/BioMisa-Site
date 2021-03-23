@@ -120,10 +120,28 @@
 
 }
 
+.Summary .Link-Button a {
+
+  color: black;
+}
+
+.Summary .menu--section{
+
+
+
+  border-width: 0px 0px 0px 0px;
+
+
+
+}
+
 .nav-link {
 
   font-size: 15pt;
   font-weight: bold;
+  font-family: 'Nunito', 'Bebas Neue', 'Montserrat', cursive, Arial, Helvetica, sans-serif;
+
+  color: black
 }
 
 .Header .nav-button{

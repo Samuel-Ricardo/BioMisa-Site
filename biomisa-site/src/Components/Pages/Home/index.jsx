@@ -45,7 +45,7 @@ const HomePage = (props) => {
 
         </section>
 
-        <div className="orange-border-bar"/>
+        <div className="orange-border-bar"></div>
 
         <section className="Home-guide--section">
 
@@ -55,7 +55,7 @@ const HomePage = (props) => {
             <Summary>
               <MenuSection>
 
-                <LinkButton link='/Content#intro'>
+                <LinkButton link='/content#Intro'>
                   Nervous System - Get Started
                 </LinkButton>
 
