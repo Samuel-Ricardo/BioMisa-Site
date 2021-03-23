@@ -23,7 +23,7 @@ const ContentPage = (props) => {
 
         <section className='Content--Section' style={{ paddingLeft: 30 }}>
 
-        <div className="summary--area">
+        <div className="content-summary--area">
           <Summary>
 
             <MenuSection title='Nervous System'>

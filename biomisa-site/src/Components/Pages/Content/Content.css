@@ -37,7 +37,7 @@
 
 }
 
-.summary--area .menu--section{
+.content-summary--area .menu--section{
 
   border-radius: 10px;
 
@@ -48,7 +48,7 @@
   border-color: #08da94;
 }
 
-.summary--area .Link-Button a {
+.content-summary--area .Link-Button a {
 
   color: #0f9b0f;
 }

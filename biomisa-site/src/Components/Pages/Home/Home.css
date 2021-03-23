@@ -120,9 +120,36 @@
 
 }
 
+.Summary  {
+
+  margin-top: 60pt;
+}
+
 .Summary .Link-Button a {
 
+  font-family:'Nunito', 'Bebas Neue', 'Montserrat', cursive, Arial, Helvetica, sans-serif;;
+
+  padding: 10px;
+
+  border-radius: 50px;
+
+  background-color: #4ce300;
+
   color: black;
+}
+
+.Summary .Link-Button:hover .Link-Button--border-bar{
+
+  width: 0%;
+  height: 0pt;
+
+}
+
+.Summary .Link-Button:hover a{
+
+  transition: all ease-in 0.3s;
+
+  background-color: #ff7b00;
 }
 
 .Summary .menu--section{

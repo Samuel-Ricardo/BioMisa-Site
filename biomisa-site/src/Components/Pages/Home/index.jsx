@@ -52,15 +52,18 @@ const HomePage = (props) => {
           <div className="Home-page--guide">
             <h2> Guide: </h2>
 
-            <Summary>
-              <MenuSection>
+            <div className="home-summary--area">
+              <Summary>
+                <MenuSection>
 
-                <LinkButton link='/content#Intro'>
-                  Nervous System - Get Started
-                </LinkButton>
+                  <LinkButton link='/content#Intro'>
+                    Nervous System - Get Started
+                  </LinkButton>
 
-              </MenuSection>
-            </Summary>
+                </MenuSection>
+              </Summary>
+            </div>
+
 
           </div>
 
