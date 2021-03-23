@@ -50,7 +50,18 @@ const HomePage = (props) => {
         <section className="Home-guide--section">
 
           <div className="Home-page--title">
-              <h2> Guide: </h2>
+            <h2> Guide: </h2>
+
+            <Summary>
+              <MenuSection>
+
+                <LinkButton link='/'>
+                  Nervous System - Get Started
+                </LinkButton>
+
+              </MenuSection>
+            </Summary>
+
           </div>
 
         </section>
