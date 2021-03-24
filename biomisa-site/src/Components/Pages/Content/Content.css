@@ -59,6 +59,11 @@
   overflow-wrap: break-word;
 }
 
+#Nervous--System article{
+
+  padding-bottom: 50px;
+}
+
 #Nervous--System h1 {
 
   font-size: 28pt;

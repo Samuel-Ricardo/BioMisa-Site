@@ -71,7 +71,7 @@ const ContentPage = (props) => {
 
             <section className="article-section--SNC">
 
-              <h2> O Sistema Nervoso Central é Composto por: </h2>
+              <h2 id='SNC'> O Sistema Nervoso Central é Composto por: </h2>
 
               <p>
 
@@ -80,12 +80,6 @@ const ContentPage = (props) => {
               </p>
 
               <section className="glia--section">
-
-                <p>
-
-                  Células da Glia: Estima-se que haja no SNC 10 células glia para cada neurônio, mas devido ao seu reduzido tamanho, elas ocupam a metade do volume do tecido nervoso. Elas diferem em forma e em funções, são elas:
-
-                </p>
 
                 <p>
 
@@ -131,8 +125,140 @@ const ContentPage = (props) => {
 
               </p>
 
+              <section>
+
+                <p>
+
+                  Córtex cerebral: Onde se formam os pensamentos conscientes, linguagem, memória, etc. (Hipocampo)
+
+                </p>
+
+                <p>
+
+                  Região interna: É formada por neurofibras, dendritos e axônios(neurônios).
+
+                </p>
+
+                <p>
+
+                  Dendrito: Capta as informações.
+
+                </p>
+
+                <p>
+
+                  Corpo Celular: Interpreta as informações.
+
+                </p>
+
+                <p>
+
+                  Bainha de mielina: Liga as interpretações até a transmissão delas.
+
+                </p>
+
+                <p>
+
+                  Axônios:  Transmite a informação.
+
+                </p>
+
+              </section>
+
+                <p>
+
+                  Medula Espinhal: A medula espinhal é um cordão de tecido nervoso localizado dentro da coluna vertebral na parte superior e está conectada no tronco encefálico. Sua principal função é guiar os impulsos do corpo inteiro para o cérebro e conduzir os atos involuntários chamados de reflexo.
+
+                </p>
+
             </section>
 
+            <section className="article-section--SNP">
+
+              <h1 id='SNP'>Sistema Nervoso Periférico</h1>
+
+              <p>
+                O SNP é constituído por nervos e gânglios. Eles são os responsáveis por interligar o SNC às partes do corpo.
+              </p>
+
+              <p>
+                Os nervos correspondem a feixes de fibras nervosas envolvidas por tecido conjuntivo. Eles são responsáveis por fazer a união do SNC a outros órgãos periféricos e pela transmissão dos impulsos nervosos.
+              </p>
+
+              <h2>
+                Os nervos apresentam a seguinte divisão:
+              </h2>
+
+              <section classname='nervous-section'>
+
+                <p>
+
+                  Nervos Espinhais: Ele é composto por 31 pares, e são os que fazem conexão com a medula espinhal. Estes nervos são responsáveis por inervar o tronco, os membros e algumas regiões específicas da cabeça.
+
+                </p>
+
+
+                <p>
+
+                  Nervos Cranianos: Composto por 12 pares, são os que fazem conexão com o encéfalo. São estes nervos que inervam as estruturas da cabeça e do pescoço
+
+                </p>
+
+                <p>
+
+                  Nervos Aferentes (Sensitivos): Enviam sinais da periferia da corpo para o sistema nervoso central. Este tipo de nervo é capaz de captar estímulos como o calor e a luz, por exemplo.
+
+                </p>
+
+                <p>
+
+                  Nervos Eferentes (Motores): Enviam sinais do sistema nervoso central para os músculos ou glândulas.
+
+                </p>
+
+                <p>
+
+                  Nervos Mistos: Formados por fibras sensoriais e fibras motoras, por exemplo, os nervos raquidianos.
+
+                </p>
+
+              </section>
+
+              <p>
+
+                Os gânglios nervosos são aglomerados de neurônios situados fora do sistema nervoso central, espalhados pelo corpo. É comum eles formarem uma estrutura esférica.
+
+              </p>
+
+              <h2> O SNP (Sistema nervoso periférico) é dividido em sistema nervoso somático e sistema nervoso autônomo. </h2>
+
+              <section>
+                <p>
+
+                  Sistema Nervoso Somático: Tem ações voluntárias. Ex: Músculo estriado esquelético.
+
+                </p>
+
+                <p>
+
+                  Sistema Nervoso Autônomo: Possui ações involuntárias. Ex: Músculo liso e cardíaco. Atua exclusivamente nos sistemas simpático e parassimpático.
+
+                </p>
+
+                <p>
+
+                  Simpático: Libera adrenalina; Acelera o coração; Dilata a pupila; Bexiga relaxa.
+
+                </p>
+
+                <p>
+
+                  Parassimpático: Libera acetilcolina; Desacelera o coração; Contrai a pupila; Bexiga contrai
+
+                </p>
+              </section>
+
+            </section>
 
           </article>
 
