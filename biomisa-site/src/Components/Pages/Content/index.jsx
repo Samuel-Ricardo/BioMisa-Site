@@ -1,11 +1,18 @@
-import React from 'react'
-import './Content.css'
+import React from 'react';
+import './Content.css';
+
 
 import DynamicHeader from '../../DynamicHeader';
-import Menu from '../../Menu'
+
 import Summary from '../../Summary';
+
+import Menu from '../../Menu';
 import MenuSection from '../../MenuSection';
 import LinkButton from '../../LinkButton';
+
+import Bold from '../../TextStyle/Bold'
+import Bolder from '../../TextStyle/Bolder'
+import Italic from '../../TextStyle/Italic'
 
 const ContentPage = (props) => {
 
@@ -50,9 +57,9 @@ const ContentPage = (props) => {
               <h3 id='system--division'> O sistema nervoso é dividido em duas partes </h3>
 
               <ul>
-                <li>Sistema nervoso central: formado pelo encéfalo e medula espinhal</li>
+                <li> <a href="#SNC"><Bold> Sistema Nervoso Central: </Bold></a> formado pelo encéfalo e medula espinhal</li>
 
-                <li>Sistema nervoso periférico: formado pelos nervos, gânglios e terminações nervosas.</li>
+                <li> <a href="#SNP"><Bold> Sistema Nervoso Periférico: </Bold></a> formado pelos nervos, gânglios e terminações nervosas.</li>
               </ul>
 
             </p>

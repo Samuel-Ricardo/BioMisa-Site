@@ -59,7 +59,14 @@
   overflow-wrap: break-word;
 }
 
-#Nervous--System p {
+#Nervous--System a {
 
-
+  text-decoration: underline;
+  color: black;
 }
+
+#Nervous--System li {
+
+  padding-bottom: 10px;
+}
+
