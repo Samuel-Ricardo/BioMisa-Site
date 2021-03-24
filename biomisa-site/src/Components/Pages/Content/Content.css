@@ -53,10 +53,28 @@
 
 #Nervous--System {
 
-  text-align: justify;
+
 
   margin-right: 25px;
   overflow-wrap: break-word;
+}
+
+#Nervous--System h1 {
+
+  font-size: 28pt;
+}
+
+#Nervous--System h2 {
+
+  font-size: 22pt;
+}
+#Nervous--System h3 {
+
+  font-size: 18pt;
+}
+
+#Nervous--System p {
+  text-align: justify;
 }
 
 #Nervous--System a {
