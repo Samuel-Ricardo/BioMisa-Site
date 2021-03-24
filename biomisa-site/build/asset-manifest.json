@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.abd4bc1d.chunk.css",
-    "main.js": "/static/js/main.3cfb18ff.chunk.js",
-    "main.js.map": "/static/js/main.3cfb18ff.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.796723e6.js",
-    "runtime-main.js.map": "/static/js/runtime-main.796723e6.js.map",
+    "main.css": "/static/css/main.93ffb066.chunk.css",
+    "main.js": "/static/js/main.772558ba.chunk.js",
+    "main.js.map": "/static/js/main.772558ba.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.31d89397.js",
+    "runtime-main.js.map": "/static/js/runtime-main.31d89397.js.map",
     "static/js/2.587f2ea7.chunk.js": "/static/js/2.587f2ea7.chunk.js",
     "static/js/2.587f2ea7.chunk.js.map": "/static/js/2.587f2ea7.chunk.js.map",
-    "static/js/3.df7a8d24.chunk.js": "/static/js/3.df7a8d24.chunk.js",
-    "static/js/3.df7a8d24.chunk.js.map": "/static/js/3.df7a8d24.chunk.js.map",
+    "static/js/3.593b7ed5.chunk.js": "/static/js/3.593b7ed5.chunk.js",
+    "static/js/3.593b7ed5.chunk.js.map": "/static/js/3.593b7ed5.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.abd4bc1d.chunk.css.map": "/static/css/main.abd4bc1d.chunk.css.map",
+    "static/css/main.93ffb066.chunk.css.map": "/static/css/main.93ffb066.chunk.css.map",
     "static/js/2.587f2ea7.chunk.js.LICENSE.txt": "/static/js/2.587f2ea7.chunk.js.LICENSE.txt",
     "static/media/Biomisa-banner.10c538c4.jpeg": "/static/media/Biomisa-banner.10c538c4.jpeg",
     "static/media/Biomisa.d59f9457.jpeg": "/static/media/Biomisa.d59f9457.jpeg",
@@ -20,9 +20,9 @@
     "static/media/mind-idea.81999bf0.png": "/static/media/mind-idea.81999bf0.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.796723e6.js",
+    "static/js/runtime-main.31d89397.js",
     "static/js/2.587f2ea7.chunk.js",
-    "static/css/main.abd4bc1d.chunk.css",
-    "static/js/main.3cfb18ff.chunk.js"
+    "static/css/main.93ffb066.chunk.css",
+    "static/js/main.772558ba.chunk.js"
   ]
 }
