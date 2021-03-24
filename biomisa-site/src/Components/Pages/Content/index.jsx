@@ -28,27 +28,40 @@ const ContentPage = (props) => {
 
             <MenuSection title='Nervous System'>
 
-              <LinkButton link='/content#Intro'> - Introduction </LinkButton>
+              <LinkButton link='/content#Introduction'> - Introduçao </LinkButton>
 
             </MenuSection>
 
           </Summary>
         </div>
 
-          <article>
+          <article id='Nervous--System'>
 
-              <p id='Intro'>
+            <h1 id='Introduction'> Sistema Nervoso </h1>
 
-                O sistema nervoso é o sistema do corpo humano encarregado de captar e gerar respostas diante de estímulos que encontramos externamente e internamente, com esse sistema somos capazes de reagir e sentir diferentes sensações e alterações em nosso ambiente. O mesmo é composto por um tipo de tecido, denominado “tecido nervoso”, o qual possui como tipo celulares, os neurônios e as chamadas células da glia. Os neurônios são responsáveis pela propagação de impulsos nervosos e têm como partes básicas o corpo celular, onde se encontra: O núcleo; Os axônios e os dendritos.
+            <p>
 
-              </p>
+              O sistema nervoso é o sistema do corpo humano encarregado de captar e gerar respostas diante de estímulos que encontramos externamente e internamente, com esse sistema somos capazes de reagir e sentir diferentes sensações e alterações em nosso ambiente. O mesmo é composto por um tipo de tecido, denominado “tecido nervoso”, o qual possui como tipo celulares, os neurônios e as chamadas células da glia. Os neurônios são responsáveis pela propagação de impulsos nervosos e têm como partes básicas o corpo celular, onde se encontra: O núcleo; Os axônios e os dendritos.
+
+            </p>
+
+            <p>
+
+              <h3 id='system--division'> O sistema nervoso é dividido em duas partes </h3>
+
+              <ul>
+                <li>Sistema nervoso central: formado pelo encéfalo e medula espinhal</li>
+
+                <li>Sistema nervoso periférico: formado pelos nervos, gânglios e terminações nervosas.</li>
+              </ul>
+
+            </p>
 
           </article>
 
         </section>
         <Menu></Menu>
       </div>
-
 
     </>
 

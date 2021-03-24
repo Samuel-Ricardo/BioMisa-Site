@@ -58,7 +58,7 @@ const HomePage = (props) => {
               <Summary>
                 <MenuSection>
 
-                  <LinkButton link='/content#Intro'>
+                  <LinkButton link='/content#Introduction'>
                     Nervous System - Get Started
                   </LinkButton>
 

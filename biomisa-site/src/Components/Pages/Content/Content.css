@@ -14,8 +14,6 @@
 
 }
 
-
-
 .Content--Section{
 
   position: relative;
@@ -30,7 +28,6 @@
 
 }
 
-
 .Menu {
 
   height: auto;
@@ -42,6 +39,7 @@
   border-radius: 10px;
 
   padding-left: 10px;
+  margin-right: 25px;
 
   border-style: solid;
   border-width: 10px 0 10px 0;
@@ -50,5 +48,18 @@
 
 .content-summary--area .Link-Button a {
 
-  color: #0f9b0f;
+  color: #fc5602;
+}
+
+#Nervous--System {
+
+  text-align: justify;
+
+  margin-right: 25px;
+  overflow-wrap: break-word;
+}
+
+#Nervous--System p {
+
+
 }
