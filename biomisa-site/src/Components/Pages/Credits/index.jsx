@@ -3,6 +3,7 @@ import './Credits.css'
 
 import DynamicHeader from '../../DynamicHeader';
 import Menu from '../../Menu'
+import Images from '../../../Images';
 
 const CreditsPage = (props) => {
 
@@ -18,10 +19,16 @@ const CreditsPage = (props) => {
 
       <section className='Credits--Section' style={{ paddingLeft: 30 }}>
 
-        <p>Pedro :()</p>
+        <h1 className='Credits-Title'> Criadores </h1>
+
+          <section id="Samuel--Programmer">
+            <img src={Images.SAMUEL} alt="Samuel"/>
+          </section>
 
       </section>
-      <Menu></Menu>
+
+        <Menu></Menu>
+
       </div>
     </>
 

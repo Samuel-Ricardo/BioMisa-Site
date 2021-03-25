@@ -22,7 +22,33 @@
   table-layout: fixed;
 
  line-height: normal;
+
+ width: 100%;
+
 }
 
 
+#Samuel--Programmer {
 
+  position: relative;
+
+  width: 100%;
+
+  float: right;
+
+  padding-left: 30px;
+
+  border-radius: 8px 0px 0px 20px ;
+
+  background-image: linear-gradient(to left, #4ce300, blueviolet);
+}
+
+#Samuel--Programmer img {
+
+  float: right;
+
+  margin-right: -40px;
+
+  max-width: 400px;
+  max-height: 400px;
+}
