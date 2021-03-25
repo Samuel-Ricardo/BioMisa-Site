@@ -27,21 +27,42 @@ const CreditsPage = (props) => {
 
               <h2 className='Credits--Programmers-Title'>Programadores</h2>
 
-              <section id="Samuel--Programmer">
+              <section id="Samuel--Card">
+
                 <img src={Images.SAMUEL} alt="Samuel" />
 
-                <p>
+                <h3 className='Card-Title'>
                   Samuel Ricardo
+                </h3>
+
+                <p className="Card-Function">
+                || Desenvolvedor Full Stack ||
                 </p>
 
-                <p>
+                <section className='Card--Description'>
 
-                  A roda de cores (ou imagem na guia Extrair tema) pode ser usada para gerar paleta de cores, a qual pode ser salva na Creative Cloud após o logon.
-                  Depois, você pode usar seus temas de cores salvos nos produtos da Adobe, como o Photoshop, o Illustrator, o Fresco etc., por meio do painel de temas do Adobe Color ou das Bibliotecas da CC.
-                </p>
+                  <p>
+                    Apaixonado pela arte de transformar imaginação em realidade e café em código.
+                  </p>
 
-                <p>A roda de cores (ou imagem na guia Extrair tema) pode ser usada para gerar paleta de cores, a qual pode ser salva na Creative Cloud após o logon.
-</p>
+                </section>
+
+                <section className="Card--Skill-List">
+                  <h2>
+                    Skills
+                  </h2>
+
+                  <div className="Skill-List">
+                    <p className="Skill">
+                      || Web || Mobile || Desktop ||
+                    </p>
+
+                    <p className="Skill">
+                      || JavaScript || Java || Elixir ||
+                    </p>
+                  </div>
+                </section>
+
               </section>
 
             </section>

@@ -27,13 +27,13 @@
 
 }
 
-#Credits--Section p {
+.Card-Function {
 
-
+  font-weight: 400;
 }
 
-#Samuel--Programmer {
-  color: white;
+#Samuel--Card {
+  color: #4ce300;
   position: relative;
 
   width: 100%;
@@ -44,10 +44,12 @@
 
   border-radius: 8px 0px 0px 20px ;
 
-  background-image: linear-gradient(to left, #4ce300, #740ecd);
+/*>background-image: linear-gradient(to left, #4ce300, #740ecd);*/
+
+background-image: linear-gradient(to left, #4ce300 , black 60%);
 }
 
-#Samuel--Programmer img {
+#Samuel--Card img {
 
   float: right;
 
@@ -58,9 +60,21 @@
   border-radius: 100%;
   */
 
-
   margin-right: -40px;
 
   max-width: 400px;
   max-height: 400px;
+}
+
+#Samuel--Card .Card-Title {
+
+  font-size: 20pt;
+}
+
+#Samuel--Card .Card-Function{
+
+  max-width: 100%;
+
+  padding-left: 15px;
+  margin-top: -20px;
 }
