@@ -27,9 +27,13 @@
 
 }
 
+#Credits--Section p {
+
+
+}
 
 #Samuel--Programmer {
-
+  color: white;
   position: relative;
 
   width: 100%;
@@ -40,12 +44,20 @@
 
   border-radius: 8px 0px 0px 20px ;
 
-  background-image: linear-gradient(to left, #4ce300, blueviolet);
+  background-image: linear-gradient(to left, #4ce300, #740ecd);
 }
 
 #Samuel--Programmer img {
 
   float: right;
+
+  /*
+  border-style: solid;
+  border-color: blueviolet;
+  border-width: 3px;
+  border-radius: 100%;
+  */
+
 
   margin-right: -40px;
 
