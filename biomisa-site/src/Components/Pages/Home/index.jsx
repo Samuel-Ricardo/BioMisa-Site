@@ -4,9 +4,14 @@ import './Home.css'
 import DynamicHeader from '../../DynamicHeader';
 import Menu from '../../Menu';
 import MenuSection from '../../MenuSection';
+
 import Summary from '../../Summary';
+
 import LinkButton from '../../LinkButton';
 import NavButton from '../../NavButton';
+import Images from '../../../Images';
+
+
 
 const HomePage = (props) => {
 
@@ -58,15 +63,15 @@ const HomePage = (props) => {
               <Summary>
                 <MenuSection>
 
-                  <LinkButton link='/content#Introduction'>
+                  <LinkButton link='/content#Introduction' icon={Images.MIND}>
                     Nervous System - Get Started
                   </LinkButton>
 
-                  <LinkButton link='/credits#Authors'>
+                  <LinkButton link='/credits#Authors' icon={Images.MIND}>
                     Team - Authors
                   </LinkButton>
 
-                  <LinkButton link='/credits#Sources'>
+                  <LinkButton link='/credits#Sources' icon={Images.MIND}>
                     Teachers - Content Source
                   </LinkButton>
 

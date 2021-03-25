@@ -89,7 +89,7 @@
 
   padding-top: 30px;
 
-  padding-right: 35pt;
+  width: 100%;
 
 }
 
@@ -246,6 +246,14 @@
   max-height: min-content;
 }
 
+.Link-Button--icon {
+
+  padding-left: 25px;
+  margin-right: 10px;
+
+  max-width: 45px;
+
+}
 
 .Home--Title--Section{
 
