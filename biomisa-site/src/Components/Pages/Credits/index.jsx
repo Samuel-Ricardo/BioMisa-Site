@@ -4,6 +4,8 @@ import './Credits.css'
 import DynamicHeader from '../../DynamicHeader';
 import Menu from '../../Menu'
 import Images from '../../../Images';
+import LinkButton from '../../LinkButton';
+import Facebook from '../../SVG/Facebook';
 
 const CreditsPage = (props) => {
 
@@ -70,9 +72,13 @@ const CreditsPage = (props) => {
                   </div>
                 </section>
 
-                <section className="Credit-contact"></section>
+                <section className="Card-contact"></section>
 
-              </section>
+                <LinkButton>
+                  <Facebook color="#4ce300" width='40' heigth='40'/>
+                </LinkButton>
+
+                </section>
 
             </section>
           </section>
