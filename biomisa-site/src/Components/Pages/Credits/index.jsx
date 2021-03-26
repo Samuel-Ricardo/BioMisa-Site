@@ -6,6 +6,7 @@ import Menu from '../../Menu'
 import Images from '../../../Images';
 import LinkButton from '../../LinkButton';
 import Facebook from '../../SVG/Facebook';
+import PerfilCard from '../../PerfilCard';
 
 const CreditsPage = (props) => {
 
@@ -23,7 +24,7 @@ const CreditsPage = (props) => {
 
       <div className="Credits--Display">
 
-      <section className='Credits--Section' style={{ paddingLeft: 30 }}>
+        <section className='Credits--Section' style={{ paddingLeft: 30 }}>
 
           <section id="Authors">
 
@@ -35,57 +36,16 @@ const CreditsPage = (props) => {
 
               <section id="Samuel--Card">
 
-                <img src={Images.SAMUEL} alt="Samuel" />
+                <PerfilCard></PerfilCard>
 
-                <h3 className='Card-Title'>
-                  Samuel Ricardo
-                </h3>
-
-                <p className="Card-Function">
-                || Desenvolvedor Full Stack ||
-                </p>
-
-
-
-                <section className='Card-Description'>
-
-                  <p>
-                    Jovem desenvolvedor super apaixonado pela arte de transformar sonhos em realidade e café em código.
-                  </p>
-
-                </section>
-
-
-                <section className="Card--Skill-List">
-                  <h2>
-                    Skills
-                  </h2>
-
-                  <div className="Skill-List">
-                    <p className="Skill">
-                      || Web || Mobile || Desktop ||
-                    </p>
-
-                    <p className="Skill">
-                      || JavaScript || Java || Elixir ||
-                    </p>
-                  </div>
-                </section>
-
-                <section className="Card-contact"></section>
-
-                <LinkButton>
-                  <Facebook color="#4ce300" width='40' heigth='40'/>
-                </LinkButton>
-
-                </section>
+              </section>
 
             </section>
           </section>
 
-      </section>
+        </section>
 
-        <Menu></Menu>
+          <Menu></Menu>
 
       </div>
 
