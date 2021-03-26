@@ -27,7 +27,13 @@
 
 }
 
+
+/*
+ //////////////////// Samuel Card /////////////////////
+*/
+
 #Samuel--Card {
+  
   color: #4ce300;
   position: relative;
 
@@ -41,7 +47,7 @@
 
 /*>background-image: linear-gradient(to left, #4ce300, #740ecd);*/
 
-background-image: linear-gradient(to left, #4ce300 , black 60%);
+  background-image: linear-gradient(to left, #4ce300 , black 60%);
 }
 
 #Samuel--Card img {
@@ -80,3 +86,8 @@ background-image: linear-gradient(to left, #4ce300 , black 60%);
   background-color: #4ce300;
 
 }
+
+
+/*
+ ////////////////////////////////////////////////////
+*/
