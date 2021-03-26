@@ -23,6 +23,8 @@ export default (props) => {
     detailsDirection = 'right'
   }
 */
+
+
   return (
 
     <div className="Perfil-Card">

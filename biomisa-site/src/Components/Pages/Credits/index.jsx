@@ -3,11 +3,16 @@ import './Credits.css'
 
 import DynamicHeader from '../../DynamicHeader';
 import Menu from '../../Menu'
+
+import PerfilCard from '../../PerfilCard';
+
 import Images from '../../../Images';
+
 import LinkButton from '../../LinkButton';
 import Facebook from '../../SVG/Facebook';
-import PerfilCard from '../../PerfilCard';
 import Github from '../../SVG/Github';
+import LinkedIn from '../../SVG/LinkedIn';
+import LinkedInEmpty from '../../SVG/LinkedInEmpty';
 
 const CreditsPage = (props) => {
 
@@ -64,7 +69,27 @@ const CreditsPage = (props) => {
 
                       <LinkButton>
                         <Github color='#4ce300'/>
-                      </LinkButton>
+                      </LinkButton>,
+
+                      <LinkButton>
+                        <LinkedIn color="#4ce300"/>
+                      </LinkButton>,
+
+                      <LinkButton>
+                        <LinkInEmpty color="#4ce300"/>
+                      </LinkButton>,
+
+                      <LinkButton>
+                        <Instagran color="#4ce300"/>
+                      </LinkButton>,
+
+                      <LinkButton>
+                        <Gmail color="#4ce300"/>
+                      </LinkButton>,
+
+                      <LinkButton>
+                        <Twitter color="#4ce300"/>
+                      </LinkButton>,
                     ]}
 
                 >
