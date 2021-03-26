@@ -32,6 +32,32 @@
   font-weight: 400;
 }
 
+.Card-Description{
+
+  margin-top: 30pt;
+}
+
+.Card--Skill-List{
+
+  margin-top: 30pt;
+}
+
+.border-bar--green{
+
+  margin-top: 10px;
+
+  background-color: transparent;
+
+  width: 50%;
+
+  border-color: #4ce300;
+
+  border-style: double;
+  border-width: 7px 0px 0px 0px;
+
+  border-radius: 0%;
+}
+
 #Samuel--Card {
   color: #4ce300;
   position: relative;

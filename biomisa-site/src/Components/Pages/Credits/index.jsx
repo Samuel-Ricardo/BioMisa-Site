@@ -7,6 +7,10 @@ import Images from '../../../Images';
 
 const CreditsPage = (props) => {
 
+  const showBorder = () => {
+
+  }
+
   return (
 
     <>
@@ -39,13 +43,16 @@ const CreditsPage = (props) => {
                 || Desenvolvedor Full Stack ||
                 </p>
 
-                <section className='Card--Description'>
+
+
+                <section className='Card-Description'>
 
                   <p>
                     Jovem desenvolvedor super apaixonado pela arte de transformar sonhos em realidade e café em código.
                   </p>
 
                 </section>
+
 
                 <section className="Card--Skill-List">
                   <h2>
@@ -63,6 +70,8 @@ const CreditsPage = (props) => {
                   </div>
                 </section>
 
+                <section className="Credit-contact"></section>
+
               </section>
 
             </section>
@@ -73,6 +82,8 @@ const CreditsPage = (props) => {
         <Menu></Menu>
 
       </div>
+
+      {showBorder()}
     </>
 
   )
