@@ -42,7 +42,7 @@ const CreditsPage = (props) => {
                 <section className='Card--Description'>
 
                   <p>
-                    Apaixonado pela arte de transformar imaginação em realidade e café em código.
+                    Jovem desenvolvedor super apaixonado pela arte de transformar sonhos em realidade e café em código.
                   </p>
 
                 </section>
