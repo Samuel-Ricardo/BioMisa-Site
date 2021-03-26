@@ -27,41 +27,6 @@
 
 }
 
-.Card-Function {
-
-  font-weight: 400;
-}
-
-.Card-Description{
-
-  margin-top: 30pt;
-}
-
-.Card-contact{
-
-}
-
-.Card--Skill-List{
-
-  margin-top: 30pt;
-}
-
-.border-bar--green{
-
-  margin-top: 10px;
-
-  background-color: transparent;
-
-  width: 50%;
-
-  border-color: #4ce300;
-
-  border-style: double;
-  border-width: 7px 0px 0px 0px;
-
-  border-radius: 0%;
-}
-
 #Samuel--Card {
   color: #4ce300;
   position: relative;
@@ -92,19 +57,26 @@ background-image: linear-gradient(to left, #4ce300 , black 60%);
 
   margin-right: -40px;
 
-  max-width: 400px;
-  max-height: 400px;
+  max-width: 68%;
+  max-height: 68%;
 }
 
-#Samuel--Card .Card-Title {
+#Samuel--Card .Link-Button {
 
-  font-size: 20pt;
+  width: 40px;
+  height: 40px;
 }
 
-#Samuel--Card .Card-Function{
+#Samuel--Card .Link-Button:hover .Link-Button--border-bar{
 
-  max-width: 100%;
+  margin-top: -10px;
+  margin-left: 3px;
 
-  padding-left: 15px;
-  margin-top: -20px;
+  width: 85%;
+  height: 2pt;
+
+  border-radius: 25px;
+
+  background-color: #4ce300;
+
 }

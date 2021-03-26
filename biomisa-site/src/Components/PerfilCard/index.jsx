@@ -1,19 +1,38 @@
-import React from 'react'
-import './PerfilCard'
-
-export default () => {
+import React, { useEffect, useState } from 'react'
+import './PerfilCard.css'
 
 
+import Images from '../../Images'
+import LinkButton from '../LinkButton'
+import Facebook from '../SVG/Facebook'
+
+
+export default (props) => {
+
+  /*
+  let imageDirection = props.direction
+  let detailsDirection = 'none'
+
+  if (imageDirection === undefined || imageDirection === null || imageDirection === '' || imageDirection === " ") {
+
+    imageDirection = 'right'
+  }
+
+  if (imageDirection === 'left') {
+
+    detailsDirection = 'right'
+  }
+*/
   return (
 
     <div className="Perfil-Card">
 
-      <img src={Images.SAMUEL} alt="Samuel" />
+      <img src={props.perfilImage} alt="Samuel"/>
 
       <section className="Card-Details">
 
       <h3 className='Card-Title'>
-        Samuel Ricardo
+        {props.cardTitle}
       </h3>
 
       <p className="Card-Function">
@@ -49,9 +68,7 @@ export default () => {
 
       <section className="Card-contact"></section>
 
-      <LinkButton>
-        <Facebook color="#4ce300" width='40' heigth='40'/>
-      </LinkButton>
+        {props.contact}
 
       </section>
 

@@ -9,8 +9,6 @@ export default (props) => {
 
       <img src={props.icon} className='Link-Button--icon' />
 
-      <div className="Link-Button--border-bar"></div>
-
       <p><a href={props.link} > {props.children} </a></p>
 
       <div className="Link-Button--border-bar"></div>

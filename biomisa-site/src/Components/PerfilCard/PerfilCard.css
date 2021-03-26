@@ -1,0 +1,71 @@
+
+.Card-Perfil {
+
+  position: relative;
+  width: 100%;
+
+}
+
+.Card-Function {
+
+  font-weight: 400;
+}
+
+.Card-Description{
+
+  margin-top: 30pt;
+}
+
+.Card-contact{
+
+}
+
+.Card--Skill-List{
+
+  margin-top: 30pt;
+}
+
+.border-bar{
+
+  margin-top: 10px;
+
+  background-color: transparent;
+
+  width: 50%;
+
+  border-color: #4ce300;
+
+  border-style: double;
+  border-width: 7px 0px 0px 0px;
+
+  border-radius: 0%;
+}
+
+.Card-Perfil img {
+
+
+  /*
+  border-style: solid;
+  border-color: blueviolet;
+  border-width: 3px;
+  border-radius: 100%;
+  */
+
+  margin-right: -40px;
+
+  max-width: 68%;
+  max-height: 68%;
+}
+
+.Card-Title {
+
+  font-size: 20pt;
+}
+
+.Card-Function{
+
+  max-width: 100%;
+
+  padding-left: 15px;
+  margin-top: -20px;
+}

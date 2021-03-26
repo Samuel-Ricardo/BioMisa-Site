@@ -36,7 +36,22 @@ const CreditsPage = (props) => {
 
               <section id="Samuel--Card">
 
-                <PerfilCard></PerfilCard>
+                <PerfilCard
+
+                  perfilImage={Images.SAMUEL}
+                  cardTitle='Samuel Ricardo'
+                  direction='left'
+                  contact={
+
+                    [
+                      <LinkButton link='/'>
+                        <Facebook color="#4ce300" />
+                      </LinkButton>,
+                    ]}
+
+                >
+
+                </PerfilCard>
 
               </section>
 
