@@ -36,16 +36,14 @@ export default (props) => {
       </h3>
 
       <p className="Card-Function">
-      || Desenvolvedor Full Stack ||
+        {props.userTitle}
       </p>
 
 
 
       <section className='Card-Description'>
 
-        <p>
-          Jovem desenvolvedor super apaixonado pela arte de transformar sonhos em realidade e café em código.
-        </p>
+        {props.children}
 
       </section>
 
@@ -56,13 +54,7 @@ export default (props) => {
         </h2>
 
         <div className="Skill-List">
-          <p className="Skill">
-            || Web || Mobile || Desktop ||
-          </p>
-
-          <p className="Skill">
-            || JavaScript || Java || Elixir ||
-          </p>
+          {props.skillList}
         </div>
       </section>
 

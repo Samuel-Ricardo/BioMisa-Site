@@ -40,7 +40,20 @@ const CreditsPage = (props) => {
 
                   perfilImage={Images.SAMUEL}
                   cardTitle='Samuel Ricardo'
-                  direction='left'
+                  userTitle='|| Desenvolvedor Full Stack ||'
+                  skillList={
+                    [
+                      <p className="Skill">
+                        || Web || Mobile || Desktop ||
+                      </p>
+
+                      ,
+
+                      <p className="Skill">
+                        || JavaScript || Java || Elixir ||
+                      </p>
+                    ]
+                  }
                   contact={
 
                     [
@@ -50,6 +63,10 @@ const CreditsPage = (props) => {
                     ]}
 
                 >
+
+                  <p>
+                    Jovem desenvolvedor super apaixonado pela arte de transformar sonhos em realidade e café em código.
+                  </p>
 
                 </PerfilCard>
 
