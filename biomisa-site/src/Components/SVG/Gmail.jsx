@@ -5,7 +5,7 @@ export default (props) => {
 
   return (
 
-    <svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" xmlnsSvgjs="http://svgjs.com/svgjs" version="1.1" width= {props.width} height= {props.height} x="0" y="0" viewBox="0 0 512 512" style={{}} xml:space="preserve" class=""><g>
+    <svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" xmlnsSvgjs="http://svgjs.com/svgjs" version="1.1" width= {props.width} height= {props.height} x="0" y="0" viewBox="0 0 512 512" style={{}} xmlSpace="preserve" class=""><g>
 <g xmlns="http://www.w3.org/2000/svg">
 	<g>
 		<path d="M410.272,243.145c-3.63-4.486-10.211-5.179-14.695-1.548l-3.636,2.942c-4.485,3.631-5.177,10.211-1.546,14.696    c2.066,2.551,5.083,3.875,8.128,3.875c2.309,0,4.634-0.762,6.568-2.328l3.635-2.942    C413.21,254.209,413.903,247.63,410.272,243.145z" fill={props.color} data-original={props.color} style={{}} class=""/>

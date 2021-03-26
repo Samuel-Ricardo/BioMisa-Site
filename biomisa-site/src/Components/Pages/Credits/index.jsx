@@ -13,6 +13,9 @@ import Facebook from '../../SVG/Facebook';
 import Github from '../../SVG/Github';
 import LinkedIn from '../../SVG/LinkedIn';
 import LinkedInEmpty from '../../SVG/LinkedInEmpty';
+import Gmail from '../../SVG/Gmail';
+import Instagram from '../../SVG/Instagram';
+import Twitter from '../../SVG/Twitter';
 
 const CreditsPage = (props) => {
 
@@ -76,11 +79,11 @@ const CreditsPage = (props) => {
                       </LinkButton>,
 
                       <LinkButton>
-                        <LinkInEmpty color="#4ce300"/>
+                        <LinkedInEmpty color="#4ce300"/>
                       </LinkButton>,
 
                       <LinkButton>
-                        <Instagran color="#4ce300"/>
+                        <Instagram color="#4ce300"/>
                       </LinkButton>,
 
                       <LinkButton>

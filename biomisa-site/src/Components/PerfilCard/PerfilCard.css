@@ -51,10 +51,6 @@
   border-radius: 100%;
   */
 
-  margin-right: -40px;
-
-  max-width: 68%;
-  max-height: 68%;
 }
 
 .Card-Title {
@@ -71,5 +67,7 @@
 }
 
 .Card-contact{
-  
+
+  margin-bottom: 30px;
+
 }

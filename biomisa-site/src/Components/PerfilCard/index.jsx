@@ -60,9 +60,11 @@ export default (props) => {
         </div>
       </section>
 
-      <section className="Card-contact"></section>
+      <section className="Card-contact">
 
-        {props.contact}
+      {props.contact}
+
+      </section>
 
       </section>
 
