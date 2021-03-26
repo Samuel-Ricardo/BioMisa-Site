@@ -7,6 +7,7 @@ import Images from '../../../Images';
 import LinkButton from '../../LinkButton';
 import Facebook from '../../SVG/Facebook';
 import PerfilCard from '../../PerfilCard';
+import Github from '../../SVG/Github';
 
 const CreditsPage = (props) => {
 
@@ -60,6 +61,10 @@ const CreditsPage = (props) => {
                       <LinkButton link='/'>
                         <Facebook color="#4ce300" />
                       </LinkButton>,
+
+                      <LinkButton>
+                        <Github color='#4ce300'/>
+                      </LinkButton>
                     ]}
 
                 >
