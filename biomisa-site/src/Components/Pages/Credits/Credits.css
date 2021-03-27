@@ -101,6 +101,83 @@
 
 }
 
+/*
+ ////////////////////////////////////////////////////
+*/
+
+
+/*
+ //////////////////// Deborah Card /////////////////////
+*/
+
+#Deborah--Car {
+
+  color: #4ce300;
+  position: relative;
+
+  width: 100%;
+
+  float: right;
+
+  padding-left: 30px;
+
+  border-radius: 8px 0px 0px 20px ;
+
+/*>background-image: linear-gradient(to left, #4ce300, #740ecd);*/
+
+  background-image: linear-gradient(to left, #4ce300 , black 60%);
+}
+
+#Deborah--Car img {
+
+  float: right;
+
+  /*
+  border-style: solid;
+  border-color: blueviolet;
+  border-width: 3px;
+  border-radius: 100%;
+  */
+
+  margin-right: -40px;
+
+  max-width: 68%;
+  max-height: 68%;
+
+  border-radius: 10%;
+
+  box-shadow: 0px 0px 10px #4ce300;
+  padding-bottom: 0px;
+}
+
+#Deborah--Car .Link-Button {
+
+  width: 40px;
+  height: 40px;
+
+  display:inline-block;
+
+  margin-right: 18px;
+}
+
+#Deborah--Car .Link-Button:hover .Link-Button--border-bar{
+
+  margin-top: -10px;
+  margin-left: 3px;
+
+  width: 85%;
+  height: 2pt;
+
+  border-radius: 25px;
+
+  background-color: #4ce300;
+
+}
+
+#Deborah--Car .Card-contact {
+
+
+}
 
 /*
  ////////////////////////////////////////////////////

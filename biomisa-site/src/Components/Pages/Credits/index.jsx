@@ -16,8 +16,12 @@ import LinkedInEmpty from '../../SVG/LinkedInEmpty';
 import Gmail from '../../SVG/Gmail';
 import Instagram from '../../SVG/Instagram';
 import Twitter from '../../SVG/Twitter';
+import Whatssap from '../../SVG/Whatssap';
+
 
 const CreditsPage = (props) => {
+
+
 
   const showBorder = () => {
 
@@ -83,7 +87,7 @@ const CreditsPage = (props) => {
                         <Instagram color="#4ce300"/>
                       </LinkButton>,
 
-                      <LinkButton link='https://samuelricardoofficial@gmail.com' blank={true}>
+                      <LinkButton link='mailto:samuelricardoofficial@gmail.com' blank={true}>
                         <Gmail color="#4ce300"/>
                       </LinkButton>,
 
@@ -103,6 +107,58 @@ const CreditsPage = (props) => {
               </section>
 
             </section>
+
+            <section className="researchers">
+
+              <section id="Deborah--Car">
+
+                <PerfilCard
+
+                  perfilImage={Images.DEBORA}
+                  cardTitle='Deborah Nascimento'
+                  userTitle='|| Desenvolvedora ||'
+                  skillList={
+                    [
+                      <p className="Skill">
+                        || Web || Desktop ||
+                      </p>
+
+                      ,
+
+                      <p className="Skill">
+                        || JavaScript || Java ||
+                      </p>
+                    ]
+                  }
+                  contact={
+
+                    [
+
+                      <LinkButton link='https://www.instagram.com/samuel_ricardo.ex/' blank={true}>
+                        <Instagram color="#4ce300"/>
+                      </LinkButton>,
+
+                      <LinkButton link='https://samuelricardoofficial@gmail.com' blank={true}>
+                        <Gmail color="#4ce300"/>
+                      </LinkButton>,
+
+                      <LinkButton link='https://twitter.com/SamuelR84144340' blank={true}>
+                        <Whatssap color="#4ce300"/>
+                      </LinkButton>,
+                    ]}
+
+                >
+
+                  <p>
+                    Jovem desenvolvedora e em alguns momentos poeta, apaixonada pela cozinha e sonhando com uma carreira militar
+                  </p>
+
+                </PerfilCard>
+
+              </section>
+
+            </section>
+
           </section>
 
         </section>
