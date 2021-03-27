@@ -17,6 +17,9 @@ import Gmail from '../../SVG/Gmail';
 import Instagram from '../../SVG/Instagram';
 import Twitter from '../../SVG/Twitter';
 import Whatssap from '../../SVG/Whatssap';
+import Youtube from '../../SVG/Youtube';
+
+import TeacherCard from '../../TeachersCard';
 
 
 const CreditsPage = (props) => {
@@ -310,11 +313,34 @@ const CreditsPage = (props) => {
 
           <section id="Sources">
             <h1 className="Credits--Source-Title"> Fontes de Pesquisa </h1>
-          </section>
 
-          <section className="Teachers--Samuel-Cunha">
-          <iframe src="https://professorsamuelcunha.com.br/?gclid=CjwKCAjwr_uCBhAFEiwAX8YJgRF2kR2mJxEvYfCcI0il1328El0MQ17xbRKucpfXSonYmO7rMFL19xoCDFcQAvD_BwE#planos" frameborder="0">
-          </iframe>
+
+            <section id="Teachers--Samuel-Cunha">
+
+              <TeacherCard
+
+                link={"https://professorsamuelcunha.com.br/"}
+                name="Samuel Cunha"
+                title='|| Professsor de Biologia ||'
+
+                contact={
+                  [
+                    <LinkButton link='https://www.youtube.com/channel/UCdLt2OhiWNLRsGNF-0DE4-A' blank={true}>
+                      <Youtube color='#4ce300' width={50} height={50}/>
+                    </LinkButton>,
+
+                    <LinkButton link='https://github.com/Samuel-Ricardo' blank={true}>
+                      <Instagram color='#4ce300' width={50} height={50} />
+                    </LinkButton>,
+                  ]
+                }
+              >
+
+
+
+              </TeacherCard>
+
+            </section>
           </section>
 
         </section>

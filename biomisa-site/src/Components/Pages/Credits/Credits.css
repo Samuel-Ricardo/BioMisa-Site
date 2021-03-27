@@ -544,3 +544,59 @@
 /*
  ////////////////////////////////////////////////////
 */
+
+#Authors {
+
+  display: block;
+
+  min-height: max-content;
+
+
+}
+
+#Sources {
+  display: block;
+
+  min-height: max-content;
+
+}
+
+#Teachers--Samuel-Cunha {
+
+  color: #4ce300;
+
+  padding-left: 30px;
+
+  border-radius: 20px 0px 0px 20px ;
+
+  box-shadow: 0px 0px 30px #4ce300;
+
+width: 100%;
+
+  background-image: linear-gradient(to left, #4ce300 , black 60%);
+
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+#Teachers--Samuel-Cunha .Link-Button {
+
+
+  display:inline-block;
+
+  margin-right: 18px;
+}
+
+#Teachers--Samuel-Cunha .Link-Button:hover .Link-Button--border-bar{
+
+  margin-top: -10px;
+  margin-left: 3px;
+
+  width: 85%;
+  height: 2pt;
+
+  border-radius: 25px;
+
+  background-color: #4ce300;
+
+}
