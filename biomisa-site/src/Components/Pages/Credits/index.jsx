@@ -106,7 +106,61 @@ const CreditsPage = (props) => {
 
               </section>
 
-              
+              <section id="Hylan--Card">
+
+                <PerfilCard
+
+                  perfilImage={Images.HYLAN}
+                  cardTitle='Hylan Silva'
+                  userTitle='||  Desing e Programador ||'
+                  skillList={
+                    [
+                      <p className="Skill">
+                        || Web || Mobile || Desktop ||
+                      </p>
+
+                      ,
+
+                      <p className="Skill">
+                       || Java || PHP || Flutter || MySQL ||
+                      </p>
+                    ]
+                  }
+                  contact={
+
+                    [
+
+                      <LinkButton link='https://github.com/HylanSilva' blank={true}>
+                        <Github color='#4ce300'/>
+                      </LinkButton>,
+
+                      <LinkButton link='https://www.linkedin.com/in/hylan-silva-89025b189/' blank={true}>
+                        <LinkedInEmpty color="#4ce300"/>
+                      </LinkButton>,
+
+                      <LinkButton link='https://www.instagram.com/laninhonutella/?hl=pt-br' blank={true}>
+                        <Instagram color="#4ce300"/>
+                      </LinkButton>,
+
+                      <LinkButton link='mailto:hylansilva27@gmail.com' blank={true}>
+                        <Gmail color="#4ce300"/>
+                      </LinkButton>,
+
+                      <LinkButton link='https://twitter.com/laninhonutella' blank={true}>
+                        <Twitter color="#4ce300"/>
+                      </LinkButton>,
+                    ]}
+
+                >
+
+                  <p>
+                  Jovem que gosta muito de tecnologia, mas não esquece de curtir a vida, e sempre na positividade #sóalegria
+                  </p>
+
+                </PerfilCard>
+
+              </section>
+
             </section>
 
             <section className="researchers">

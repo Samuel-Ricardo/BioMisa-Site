@@ -6,6 +6,7 @@ import Biomisa from './Biomisa.jpeg'
 import Samuel from './Samuel.png'
 import Milena from './Milena.png'
 import Deborah from './Debbye.png'
+import Hylan from './Hylan_PNG.png'
 
 import Mind from './Icons/mind-idea.png'
 
@@ -17,6 +18,7 @@ export default {
   SAMUEL: Samuel,
   MILENA: Milena,
   DEBORA: Deborah,
+  HYLAN: Hylan,
 
   MIND: Mind
 }
