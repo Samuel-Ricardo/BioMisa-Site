@@ -134,16 +134,16 @@ const CreditsPage = (props) => {
 
                     [
 
-                      <LinkButton link='https://www.instagram.com/samuel_ricardo.ex/' blank={true}>
-                        <Instagram color="#4ce300"/>
+                      <LinkButton link='https://www.instagram.com/santosdeborah16/' blank={true}>
+                        <Instagram color="rgb(115, 16, 207)"/>
                       </LinkButton>,
 
-                      <LinkButton link='https://samuelricardoofficial@gmail.com' blank={true}>
-                        <Gmail color="#4ce300"/>
+                      <LinkButton link='mailto:nascimentodeborah151@gmail.com' blank={true}>
+                        <Gmail color="rgb(115, 16, 207)"/>
                       </LinkButton>,
 
                       <LinkButton link='https://twitter.com/SamuelR84144340' blank={true}>
-                        <Whatssap color="#4ce300"/>
+                        <Whatssap color="rgb(115, 16, 207)"/>
                       </LinkButton>,
                     ]}
 
