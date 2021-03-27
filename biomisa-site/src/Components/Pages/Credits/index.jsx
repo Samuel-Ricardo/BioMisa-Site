@@ -47,6 +47,8 @@ const CreditsPage = (props) => {
 
               <h2 className='Credits--Programmers-Title'>PrOgramadores</h2>
 
+              <div className="Credits--Border-bar"/>
+
               <section id="Samuel--Card">
 
                 <PerfilCard
@@ -165,7 +167,12 @@ const CreditsPage = (props) => {
 
             <section className="researchers">
 
+
+              <div className="Credits--Border-bar"></div>
+
               <h2 className='Credits--Researchers-Title'>Pesquisadores</h2>
+
+              <div className="Credits--Border-bar"/>
 
               <section id="Deborah--Card">
 
@@ -295,8 +302,19 @@ const CreditsPage = (props) => {
 
               </section>
 
+              <div className="Credits--Border-bar"/>
+
             </section>
 
+          </section>
+
+          <section id="Sources">
+            <h1 className="Credits--Source-Title"> Fontes de Pesquisa </h1>
+          </section>
+
+          <section className="Teachers--Samuel-Cunha">
+          <iframe src="https://professorsamuelcunha.com.br/?gclid=CjwKCAjwr_uCBhAFEiwAX8YJgRF2kR2mJxEvYfCcI0il1328El0MQ17xbRKucpfXSonYmO7rMFL19xoCDFcQAvD_BwE#planos" frameborder="0">
+          </iframe>
           </section>
 
         </section>
