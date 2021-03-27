@@ -25,6 +25,15 @@
 
  width: 100%;
 
+ background-color: black;
+
+ color: #fc5602;
+
+}
+
+.Credits--Authors-Title, .Credits--Researchers-Title {
+
+  font-size: 30pt;
 }
 
 
@@ -45,9 +54,14 @@
 
   border-radius: 8px 0px 0px 20px ;
 
+  box-shadow: 0px 0px 30px #4ce300;
+
 /*>background-image: linear-gradient(to left, #4ce300, #740ecd);*/
 
   background-image: linear-gradient(to left, #4ce300 , black 60%);
+
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 
 #Samuel--Card img {
@@ -123,9 +137,15 @@
 
   border-radius: 8px 0px 0px 20px ;
 
+  box-shadow: 0px 0px 25px rgb(115, 16, 207);
+
 /*>background-image: linear-gradient(to left, #4ce300, #740ecd);*/
 
   background-image: linear-gradient(to left, rgb(115, 16, 207)  , black 60%);
+
+  margin-top: 25px;
+  margin-bottom: 25px;
+
 }
 
 #Deborah--Card img {
@@ -210,11 +230,16 @@
 
   padding-left: 30px;
 
-  border-radius: 8px 0px 0px 20px ;
+  border-radius: 20px 0px 0px 20px ;
+
+  box-shadow: 0px 0px 30px #4ce300;
 
 /*>background-image: linear-gradient(to left, #4ce300, #740ecd);*/
 
   background-image: linear-gradient(to left, #4ce300 , black 60%);
+
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 
 #Hylan--Card img {
