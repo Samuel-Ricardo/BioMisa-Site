@@ -66,31 +66,28 @@ const CreditsPage = (props) => {
                   contact={
 
                     [
-                      <LinkButton link='/'>
-                        <Facebook color="#4ce300" />
-                      </LinkButton>,
 
-                      <LinkButton>
+                      <LinkButton link='https://github.com/Samuel-Ricardo' blank={true}>
                         <Github color='#4ce300'/>
                       </LinkButton>,
 
-                      <LinkButton>
+                      <LinkButton link='https://www.linkedin.com/in/samuel-ricardo-cabral/' blank={true}>
                         <LinkedIn color="#4ce300"/>
                       </LinkButton>,
 
-                      <LinkButton>
+                      <LinkButton link='https://www.linkedin.com/in/samuel-ricardo-cabral/detail/recent-activity/shares/' blank={true}>
                         <LinkedInEmpty color="#4ce300"/>
                       </LinkButton>,
 
-                      <LinkButton>
+                      <LinkButton link='https://www.instagram.com/samuel_ricardo.ex/' blank={true}>
                         <Instagram color="#4ce300"/>
                       </LinkButton>,
 
-                      <LinkButton>
+                      <LinkButton link='https://samuelricardoofficial@gmail.com' blank={true}>
                         <Gmail color="#4ce300"/>
                       </LinkButton>,
 
-                      <LinkButton>
+                      <LinkButton link='https://twitter.com/SamuelR84144340' blank={true}>
                         <Twitter color="#4ce300"/>
                       </LinkButton>,
                     ]}

@@ -62,7 +62,7 @@ export default (props) => {
 
       <section className="Card-contact">
 
-      {props.contact}
+        {props.contact}
 
       </section>
 
