@@ -165,7 +165,7 @@ const CreditsPage = (props) => {
 
             <section className="researchers">
 
-            <h2 className='Credits--Researchers-Title'>Pesquisadores</h2>
+              <h2 className='Credits--Researchers-Title'>Pesquisadores</h2>
 
               <section id="Deborah--Card">
 
@@ -251,6 +251,44 @@ const CreditsPage = (props) => {
 
                   <p>
                   Uma pesquisadora nata, que não perde oportunidade de se encarregar da responsabilidade de realizar as pesquisas dos trabalhos. meu passa tempo? ver anime e navegar no twitter :)
+                  </p>
+
+                </PerfilCard>
+
+              </section>
+
+              <section id="Gleydson--Card">
+
+                <PerfilCard
+
+                  perfilImage={Images.GLEYDSON}
+                  cardTitle='Gleydson'
+                  userTitle='|| Pesquisador ||'
+                  skillList={
+                    [
+                      <p className="Skill">
+                        || Read || Search ||
+                      </p>
+
+                    ]
+                  }
+                  contact={
+
+                    [
+
+                      <LinkButton link='https://www.instagram.com/gleydsonv2002/' blank={true}>
+                        <Instagram color="rgb(115, 16, 207)"/>
+                      </LinkButton>,
+
+                      <LinkButton link='mailto:' blank={true}>
+                        <Gmail color="rgb(115, 16, 207)"/>
+                      </LinkButton>,
+                    ]}
+
+                >
+
+                  <p>
+                  Uma grande pesquisador, que sempre disposto a ajudar a equipe com minhas habilidades ;)
                   </p>
 
                 </PerfilCard>

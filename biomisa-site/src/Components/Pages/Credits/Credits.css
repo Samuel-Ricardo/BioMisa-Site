@@ -70,6 +70,10 @@
 
   font-size: 30pt;
   font-family: 'Henrik-Regular';
+
+  border-style: double;
+  border-color: #fc5602;
+  border-width: 0px 0px 10px 0px;
 }
 
 .Credits--Programmers-Title, .Credits--Researchers-Title {
@@ -425,6 +429,103 @@
 }
 
 #Milena--Card .Card-contact {
+
+
+}
+
+
+/*
+ ////////////////////////////////////////////////////
+*/
+
+
+/*
+ //////////////////// Gleydson Card /////////////////////
+*/
+
+#Gleydson--Card {
+
+  color: rgb(115, 16, 207);
+  position: relative;
+
+  width: 100%;
+
+  float: right;
+
+  padding-left: 30px;
+
+  border-radius: 20px 0px 0px 20px ;
+
+  box-shadow: 0px 0px 25px rgb(115, 16, 207);
+
+/*>background-image: linear-gradient(to left, #4ce300, #740ecd);*/
+
+  background-image: linear-gradient(to left, rgb(115, 16, 207)  , black 60%);
+
+  margin-top: 25px;
+  margin-bottom: 25px;
+
+  padding-bottom: 40px;
+
+}
+
+#Gleydson--Card img {
+
+  float: right;
+
+  /*
+  border-style: solid;
+  border-color: blueviolet;
+  border-width: 3px;
+  border-radius: 100%;
+  */
+
+  margin-right: -40px;
+
+
+  max-width: 68%;
+  max-height: 68%;
+
+  border-radius: 10%;
+
+  box-shadow: 0px 0px 13px rgb(115, 16, 207);
+  padding-bottom: 0px;
+}
+
+#Gleydson--Card .Link-Button {
+
+  width: 40px;
+  height: 40px;
+
+  display:inline-block;
+
+  margin-right: 18px;
+
+}
+
+#Gleydson--Card .Link-Button a {
+
+  color:rgb(115, 16, 207);
+
+  font-size: 10pt;
+  font-weight: 300;
+}
+
+#Gleydson--Card .Link-Button:hover .Link-Button--border-bar{
+
+  margin-top: -10px;
+  margin-left: 3px;
+
+  width: 85%;
+  height: 2pt;
+
+  border-radius: 25px;
+
+  background-color: rgb(115, 16, 207);
+
+}
+
+#Gleydson--Card .Card-contact {
 
 
 }
