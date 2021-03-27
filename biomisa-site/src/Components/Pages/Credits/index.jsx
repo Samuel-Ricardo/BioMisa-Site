@@ -45,7 +45,7 @@ const CreditsPage = (props) => {
 
             <section id="Programmers">
 
-              <h2 className='Credits--Programmers-Title'>Programadores</h2>
+              <h2 className='Credits--Programmers-Title'>PrOgramadores</h2>
 
               <section id="Samuel--Card">
 
@@ -112,7 +112,7 @@ const CreditsPage = (props) => {
 
                   perfilImage={Images.HYLAN}
                   cardTitle='Hylan Silva'
-                  userTitle='||  Desing e Programador ||'
+                  userTitle='||  Desingner e Programador ||'
                   skillList={
                     [
                       <p className="Skill">
@@ -208,6 +208,49 @@ const CreditsPage = (props) => {
 
                   <p>
                     Jovem desenvolvedora e em alguns momentos poeta, apaixonada pela cozinha e sonhando com uma carreira militar
+                  </p>
+
+                </PerfilCard>
+
+              </section>
+
+              <section id="Milena--Card">
+
+                <PerfilCard
+
+                  perfilImage={Images.MILENA}
+                  cardTitle='Milena Fernanda'
+                  userTitle='|| Pesquisadora ||'
+                  skillList={
+                    [
+                      <p className="Skill">
+                        || Google Scholar || Photograph ||
+                      </p>
+
+                      ,
+
+                      <p className="Skill">
+                        || Read || Search ||
+                      </p>
+                    ]
+                  }
+                  contact={
+
+                    [
+
+                      <LinkButton link='https://twitter.com/loona200421' blank={true}>
+                        <Twitter color="rgb(115, 16, 207)"/>
+                      </LinkButton>,
+
+                      <LinkButton link='mailto:milenafaraujoprof21@gmail.com' blank={true}>
+                        <Gmail color="rgb(115, 16, 207)"/>
+                      </LinkButton>,
+                    ]}
+
+                >
+
+                  <p>
+                  Uma pesquisadora nata, que não perde oportunidade de se encarregar da responsabilidade de realizar as pesquisas dos trabalhos. meu passa tempo? ver anime e navegar no twitter :)
                   </p>
 
                 </PerfilCard>
