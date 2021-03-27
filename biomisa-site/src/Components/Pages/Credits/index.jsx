@@ -106,11 +106,14 @@ const CreditsPage = (props) => {
 
               </section>
 
+              
             </section>
 
             <section className="researchers">
 
-              <section id="Deborah--Car">
+            <h2 className='Credits--Researchers-Title'>Pesquisadores</h2>
+
+              <section id="Deborah--Card">
 
                 <PerfilCard
 
@@ -142,7 +145,7 @@ const CreditsPage = (props) => {
                         <Gmail color="rgb(115, 16, 207)"/>
                       </LinkButton>,
 
-                      <LinkButton link='https://twitter.com/SamuelR84144340' blank={true}>
+                      <LinkButton >
                         <Whatssap color="rgb(115, 16, 207)"/>
                       </LinkButton>,
                     ]}

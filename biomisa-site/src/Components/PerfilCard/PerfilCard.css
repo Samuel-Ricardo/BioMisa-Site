@@ -66,6 +66,14 @@
   margin-top: -20px;
 }
 
+.Card-Description {
+
+  border-style: solid;
+  border-width: 0px 0px 0px 7px;
+
+  padding-left: 5px;
+}
+
 .Card-contact{
 
   margin-bottom: 30px;

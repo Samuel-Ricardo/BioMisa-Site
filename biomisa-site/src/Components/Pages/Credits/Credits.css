@@ -110,7 +110,7 @@
  //////////////////// Deborah Card /////////////////////
 */
 
-#Deborah--Car {
+#Deborah--Card {
 
   color: rgb(115, 16, 207);
   position: relative;
@@ -128,7 +128,7 @@
   background-image: linear-gradient(to left, rgb(115, 16, 207)  , black 60%);
 }
 
-#Deborah--Car img {
+#Deborah--Card img {
 
   float: right;
 
@@ -146,11 +146,11 @@
 
   border-radius: 10%;
 
-  box-shadow: 0px 0px 10px rgb(115, 16, 207);
+  box-shadow: 0px 0px 13px rgb(115, 16, 207);
   padding-bottom: 0px;
 }
 
-#Deborah--Car .Link-Button {
+#Deborah--Card .Link-Button {
 
   width: 40px;
   height: 40px;
@@ -158,9 +158,18 @@
   display:inline-block;
 
   margin-right: 18px;
+
 }
 
-#Deborah--Car .Link-Button:hover .Link-Button--border-bar{
+#Deborah--Card .Link-Button a {
+
+  color:rgb(115, 16, 207);
+
+  font-size: 10pt;
+  font-weight: 300;
+}
+
+#Deborah--Card .Link-Button:hover .Link-Button--border-bar{
 
   margin-top: -10px;
   margin-left: 3px;
@@ -174,10 +183,11 @@
 
 }
 
-#Deborah--Car .Card-contact {
+#Deborah--Card .Card-contact {
 
 
 }
+
 
 /*
  ////////////////////////////////////////////////////
