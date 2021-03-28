@@ -66,7 +66,7 @@
 
 }
 
-.Credits--Authors-Title {
+.Credits--Authors-Title, .Credits--Source-Title {
 
   font-size: 30pt;
   font-family: 'Henrik-Regular';
@@ -108,7 +108,7 @@
 
   float: right;
 
-  padding-left: 30px;
+  padding-left: 15px;
 
   border-radius: 20px 0px 0px 20px ;
 
@@ -191,7 +191,7 @@
 
   float: right;
 
-  padding-left: 30px;
+  padding-left: 15px;
 
   border-radius: 20px 0px 0px 20px ;
 
@@ -274,7 +274,7 @@
 
   float: right;
 
-  padding-left: 30px;
+  padding-left: 15px;
 
   border-radius: 20px 0px 0px 20px ;
 
@@ -368,7 +368,7 @@
 
   float: right;
 
-  padding-left: 30px;
+  padding-left: 15px;
 
   border-radius: 20px 0px 0px 20px ;
 
@@ -462,7 +462,7 @@
 
   float: right;
 
-  padding-left: 30px;
+  padding-left: 15px;
 
   border-radius: 20px 0px 0px 20px ;
 
@@ -492,9 +492,11 @@
 
   margin-right: -40px;
 
+  padding-left: 20px;
 
-  max-width: 68%;
-  max-height: 68%;
+
+  max-width: 60%;
+  max-height: 60%;
 
   border-radius: 10%;
 
@@ -551,7 +553,6 @@
 
   min-height: max-content;
 
-  background-color: yellow;
 }
 
 #Sources {
@@ -559,8 +560,6 @@
   display: block;
 
   min-height: max-content;
-
-  background-color: blue;
 }
 
 #Teachers--Samuel-Cunha {
@@ -577,8 +576,8 @@
 
   background-image: linear-gradient(to left, #4ce300 , black 60%);
 
-  margin-top: 25px;
-  margin-bottom: 25px;
+  margin-top: -40px;
+  margin-bottom: 30px;
 }
 
 #Teachers--Samuel-Cunha .Link-Button {

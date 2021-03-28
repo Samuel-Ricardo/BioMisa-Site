@@ -300,7 +300,6 @@ const CreditsPage = (props) => {
 
               <div className="Credits--Border-bar"/>
 
-              <h2>-</h2>
             </section>
 
           </section>
@@ -308,9 +307,8 @@ const CreditsPage = (props) => {
           <section id="Sources">
             <h1 className="Credits--Source-Title"> Fontes de Pesquisa </h1>
 
-
             <section id="Teachers--Samuel-Cunha">
-/*
+
               <TeacherCard
 
                 link={"https://professorsamuelcunha.com.br/"}
@@ -328,12 +326,9 @@ const CreditsPage = (props) => {
                     </LinkButton>,
                   ]
                 }
-              >
-              </TeacherCard>
-*/
-            </section>
+              ></TeacherCard>
 
-            <h3>-</h3>
+            </section>
 
           </section>
 

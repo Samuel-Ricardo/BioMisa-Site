@@ -3,7 +3,10 @@
 
   min-width: max-content;
 
-  background-color: red;
+}
+
+.Teacher-Card * {
+  position:relative;
 }
 
 .TeacherCard--Iframe{
@@ -13,11 +16,13 @@
   height: 100%;
 
   border-radius: 30%;
+
+  padding-top: 10px;
 }
 
 .TeacherCard--Details{
 
-  float: left;
+
 }
 
 .TeacherCard--Name{
@@ -28,6 +33,7 @@
 
 .TeacherCard--Title{
 
-  margin-top: -40px;
+  margin-top: -60px;
   padding-left: 20px;
+  padding-bottom: 10px;
 }
