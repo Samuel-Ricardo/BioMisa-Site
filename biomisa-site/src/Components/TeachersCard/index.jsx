@@ -3,6 +3,12 @@ import './TeacherCard.css'
 
 export default (props) => {
 
+  let allow = ""
+
+  if (props.video === true) {
+
+    allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  }
 
   return (
 
@@ -10,10 +16,10 @@ export default (props) => {
 
       <section className="TeacherCard--Iframe">
 
-        <a href={props.link} about='_blank'>
-          <iframe src={props.link}>
+
+          <iframe src={props.link} allow={allow} allowfullscreen>
           </iframe>
-        </a>
+      
 
       </section>
 

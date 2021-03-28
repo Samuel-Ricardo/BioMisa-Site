@@ -321,8 +321,33 @@ const CreditsPage = (props) => {
                       <Youtube color='#4ce300' width={50} height={50}/>
                     </LinkButton>,
 
-                    <LinkButton link='https://github.com/Samuel-Ricardo' blank={true}>
+                    <LinkButton link='https://www.instagram.com/professorsamuelcunha/' blank={true}>
                       <Instagram color='#4ce300' width={50} height={50} />
+                    </LinkButton>,
+                  ]
+                }
+              ></TeacherCard>
+
+            </section>
+
+
+            <section id="Teachers--Misael">
+
+              <TeacherCard
+
+                link={"https://www.youtube.com/embed/hQ2n86X1WSU"}
+                video={true}
+                name="Tio Misa"
+                title='|| Professsor de Biologia da ETEMB ||'
+
+                contact={
+                  [
+                    <LinkButton link='https://www.youtube.com/channel/UCEOcdeNrlmLUvOWNPSwQ3jA' blank={true}>
+                      <Youtube color='#fc5602' width={50} height={50}/>
+                    </LinkButton>,
+
+                    <LinkButton link='https://www.instagram.com/misaellimajr/' blank={true}>
+                      <Instagram color='#fc5602' width={50} height={50} />
                     </LinkButton>,
                   ]
                 }
