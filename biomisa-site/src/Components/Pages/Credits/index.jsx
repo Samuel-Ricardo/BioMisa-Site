@@ -34,7 +34,7 @@ const CreditsPage = (props) => {
 
     <>
 
-      <header>
+<header>
         <DynamicHeader screenName={'Participants'} screenMap="Credits" perfilImage={props.perfilImage}/>
       </header>
 
@@ -170,13 +170,6 @@ const CreditsPage = (props) => {
 
             <section className="researchers">
 
-
-              <div className="Credits--Border-bar"></div>
-
-              <h2 className='Credits--Researchers-Title'>Pesquisadores</h2>
-
-              <div className="Credits--Border-bar"/>
-
               <section id="Deborah--Card">
 
                 <PerfilCard
@@ -307,6 +300,7 @@ const CreditsPage = (props) => {
 
               <div className="Credits--Border-bar"/>
 
+              <h2>-</h2>
             </section>
 
           </section>
@@ -316,7 +310,7 @@ const CreditsPage = (props) => {
 
 
             <section id="Teachers--Samuel-Cunha">
-
+/*
               <TeacherCard
 
                 link={"https://professorsamuelcunha.com.br/"}
@@ -335,12 +329,12 @@ const CreditsPage = (props) => {
                   ]
                 }
               >
-
-
-
               </TeacherCard>
-
+*/
             </section>
+
+            <h3>-</h3>
+
           </section>
 
         </section>

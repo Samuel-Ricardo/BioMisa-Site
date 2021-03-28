@@ -551,14 +551,16 @@
 
   min-height: max-content;
 
-
+  background-color: yellow;
 }
 
 #Sources {
+
   display: block;
 
   min-height: max-content;
 
+  background-color: blue;
 }
 
 #Teachers--Samuel-Cunha {
@@ -571,7 +573,7 @@
 
   box-shadow: 0px 0px 30px #4ce300;
 
-width: 100%;
+  min-width: max-content;
 
   background-image: linear-gradient(to left, #4ce300 , black 60%);
 

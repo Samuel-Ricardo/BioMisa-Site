@@ -1,4 +1,11 @@
 
+.Teacher-Card {
+
+  min-width: max-content;
+
+  background-color: red;
+}
+
 .TeacherCard--Iframe{
 
   float: right;
