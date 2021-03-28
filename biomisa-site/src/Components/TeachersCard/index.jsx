@@ -17,9 +17,19 @@ export default (props) => {
       <section className="TeacherCard--Iframe">
 
 
-          <iframe src={props.link} allow={allow} allowfullscreen>
-          </iframe>
-      
+          {props.video
+            ?
+              (
+                <iframe src={props.link} frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                </iframe>
+              )
+            :
+              (
+                <iframe src={props.link} >
+                </iframe>
+              )
+        }
+
 
       </section>
 

@@ -330,14 +330,13 @@ const CreditsPage = (props) => {
 
             </section>
 
-
             <section id="Teachers--Misael">
 
               <TeacherCard
 
                 link={"https://www.youtube.com/embed/hQ2n86X1WSU"}
                 video={true}
-                name="Tio Misa"
+                name=" Misael Lima"
                 title='|| Professsor de Biologia da ETEMB ||'
 
                 contact={
@@ -348,6 +347,56 @@ const CreditsPage = (props) => {
 
                     <LinkButton link='https://www.instagram.com/misaellimajr/' blank={true}>
                       <Instagram color='#fc5602' width={50} height={50} />
+                    </LinkButton>,
+                  ]
+                }
+              ></TeacherCard>
+
+            </section>
+
+            <section id="Teachers--Kennedy">
+
+              <TeacherCard
+
+                link={"https://www.bioexplica.com.br/"}
+                video={false}
+                name="Kennedy Ramos"
+                title='|| Professsor de Biologia ||'
+
+                contact={
+                  [
+                    <LinkButton link='https://www.youtube.com/user/kennedyramosbio' blank={true}>
+                      <Youtube color='blue' width={50} height={50}/>
+                    </LinkButton>,
+
+                    <LinkButton link='https://www.instagram.com/bioexplica/' blank={true}>
+                      <Instagram color='blue' width={50} height={50} />
+                    </LinkButton>,
+                  ]
+                }
+              ></TeacherCard>
+
+            </section>
+
+
+
+            <section id="Teachers--Jubilut">
+
+              <TeacherCard
+
+                link={"https://www.biologiatotal.com.br/"}
+                video={false}
+                name="Paulo Jubilut"
+                title='|| Professsor de Biologia ||'
+
+                contact={
+                  [
+                    <LinkButton link='https://www.youtube.com/c/biologiatotalbrjubilut/featured' blank={true}>
+                      <Youtube color='rgb(255, 208, 0)' width={50} height={50}/>
+                    </LinkButton>,
+
+                    <LinkButton link='https://www.instagram.com/paulojubilut/' blank={true}>
+                      <Instagram color='rgb(255, 208, 0)' width={50} height={50} />
                     </LinkButton>,
                   ]
                 }
