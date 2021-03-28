@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.8b8d0918.chunk.css",
-    "main.js": "/static/js/main.b7e7bd7b.chunk.js",
-    "main.js.map": "/static/js/main.b7e7bd7b.chunk.js.map",
+    "main.css": "/static/css/main.2a73884f.chunk.css",
+    "main.js": "/static/js/main.99e777bd.chunk.js",
+    "main.js.map": "/static/js/main.99e777bd.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.6045a592.js",
     "runtime-main.js.map": "/static/js/runtime-main.6045a592.js.map",
     "static/js/2.80f2345f.chunk.js": "/static/js/2.80f2345f.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.d0a002f3.chunk.js": "/static/js/3.d0a002f3.chunk.js",
     "static/js/3.d0a002f3.chunk.js.map": "/static/js/3.d0a002f3.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.8b8d0918.chunk.css.map": "/static/css/main.8b8d0918.chunk.css.map",
+    "static/css/main.2a73884f.chunk.css.map": "/static/css/main.2a73884f.chunk.css.map",
     "static/js/2.80f2345f.chunk.js.LICENSE.txt": "/static/js/2.80f2345f.chunk.js.LICENSE.txt",
     "static/media/Biomisa-banner.10c538c4.jpeg": "/static/media/Biomisa-banner.10c538c4.jpeg",
     "static/media/Biomisa.d59f9457.jpeg": "/static/media/Biomisa.d59f9457.jpeg",
@@ -25,7 +25,7 @@
   "entrypoints": [
     "static/js/runtime-main.6045a592.js",
     "static/js/2.80f2345f.chunk.js",
-    "static/css/main.8b8d0918.chunk.css",
-    "static/js/main.b7e7bd7b.chunk.js"
+    "static/css/main.2a73884f.chunk.css",
+    "static/js/main.99e777bd.chunk.js"
   ]
 }
