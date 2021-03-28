@@ -3,6 +3,11 @@
 
   min-width: max-content;
 
+  display: flex;
+
+  justify-content: space-between;
+
+
 }
 
 .Teacher-Card * {
@@ -11,23 +16,27 @@
 
 .TeacherCard--Iframe{
 
-  float: right;
+display: inline-block;
 
   height: 100%;
 
-  border-radius: 2%;
+  border-radius: 10px;
 
-  margin-top: 10px;
+  margin-right: 20px;
+  margin-top: 30px;
+
 }
 
-.TeacherCard--Iframe iframe {
+.TeacherCard--Iframe  {
 
   border-radius: 5px;
 }
 
 .TeacherCard--Details{
 
+display: inline-block;
 
+margin-top: -40pt;
 }
 
 .TeacherCard--Name{

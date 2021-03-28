@@ -170,6 +170,8 @@ const CreditsPage = (props) => {
 
             <section className="researchers">
 
+            <h2 className='Credits--Programmers-Title'>Time de Pesquisa</h2>
+
               <section id="Deborah--Card">
 
                 <PerfilCard
@@ -291,7 +293,7 @@ const CreditsPage = (props) => {
                 >
 
                   <p>
-                  Uma grande pesquisador, que sempre disposto a ajudar a equipe com minhas habilidades ;)
+                    Uma grande esportista, sempre disposto a ajudar a equipe com minhas habilidades. Gosto de praticar esporte, vivo sempre sorrindo, procuro sempre fazer o bem. Na maioria das vezes gosto de gastar meu tempo livre o tempo com o instagram ou o whatsApp.
                   </p>
 
                 </PerfilCard>
@@ -378,8 +380,6 @@ const CreditsPage = (props) => {
 
             </section>
 
-
-
             <section id="Teachers--Jubilut">
 
               <TeacherCard
@@ -392,17 +392,42 @@ const CreditsPage = (props) => {
                 contact={
                   [
                     <LinkButton link='https://www.youtube.com/c/biologiatotalbrjubilut/featured' blank={true}>
-                      <Youtube color='rgb(255, 208, 0)' width={50} height={50}/>
+                      <Youtube color='rgb(255, 136, 0)' width={50} height={50}/>
                     </LinkButton>,
 
                     <LinkButton link='https://www.instagram.com/paulojubilut/' blank={true}>
-                      <Instagram color='rgb(255, 208, 0)' width={50} height={50} />
+                      <Instagram color='rgb(255, 136, 0)' width={50} height={50} />
                     </LinkButton>,
                   ]
                 }
               ></TeacherCard>
 
             </section>
+
+            <section id="Teachers--Guilherme">
+
+              <TeacherCard
+
+                link={"https://biologiagui.com.br/"}
+                video={false}
+                name="Guilherme Goulart"
+                title='|| Professsor de Biologia ||'
+
+                contact={
+                  [
+                    <LinkButton link='https://www.youtube.com/channel/UCKjZcHxpvFJyjcyrYSFghTw' blank={true}>
+                      <Youtube color='rgb(115, 16, 207)' width={50} height={50}/>
+                    </LinkButton>,
+
+                    <LinkButton link='https://www.instagram.com/gogoulart/' blank={true}>
+                      <Instagram color='rgb(115, 16, 207)' width={50} height={50} />
+                    </LinkButton>,
+                  ]
+                }
+              ></TeacherCard>
+
+            </section>
+
 
           </section>
 

@@ -14,24 +14,7 @@ export default (props) => {
 
     <div className="Teacher-Card">
 
-      <section className="TeacherCard--Iframe">
 
-
-          {props.video
-            ?
-              (
-                <iframe src={props.link} frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-                </iframe>
-              )
-            :
-              (
-                <iframe src={props.link} >
-                </iframe>
-              )
-        }
-
-
-      </section>
 
       <section className="TeacherCard--Details">
 
@@ -43,6 +26,30 @@ export default (props) => {
           {props.contact}
         </section>
       </section>
+
+
+      <section className="TeacherCard--Iframe" >
+
+        <a href={props.link} target="_blank" style={{backgroundColor: 'blueviolet'}}>
+
+          {props.video
+                ?
+                  (
+                    <iframe src={props.link} frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen >
+                    </iframe>
+                  )
+                :
+                  (
+                    <iframe src={props.link} >
+                    </iframe>
+                  )
+          }
+
+
+        </a>
+      </section>
+
+
 
     </div>
 

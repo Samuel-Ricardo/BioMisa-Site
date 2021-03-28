@@ -76,6 +76,10 @@
   border-style: double;
   border-color: #fc5602;
   border-width: 0px 0px 10px 0px;
+/*
+    padding-top: 25pt;
+    padding-bottom: 15pt;
+*/
 }
 
 .Credits--Programmers-Title, .Credits--Researchers-Title {
@@ -397,6 +401,7 @@
   */
 
   margin-right: -40px;
+  margin-left: 10px;
 
   max-width: 68%;
   max-height: 68%;
@@ -492,7 +497,8 @@
   border-radius: 100%;
   */
 
-  margin-right: -40px;
+  margin-right: 0px;
+  margin-left: 15px;
 
   padding-left: 20px;
 
@@ -582,8 +588,10 @@
 
   background-image: linear-gradient(to left, #4ce300 , black 60%);
 
-  margin-top: -40px;
+  margin-top: -10px;
   margin-bottom: 30px;
+
+  margin-bottom: 100px;
 }
 
 #Teachers--Samuel-Cunha .Link-Button {
@@ -629,6 +637,8 @@
 
   margin-top: -40px;
   margin-bottom: 30px;
+
+  margin-bottom: 100px;
 }
 
 #Teachers--Misael .Link-Button {
@@ -674,6 +684,8 @@
 
   margin-top: -40px;
   margin-bottom: 30px;
+
+  margin-bottom: 100px;
 }
 
 #Teachers--Kennedy .Link-Button {
@@ -704,20 +716,21 @@
 
 #Teachers--Jubilut {
 
-  color: rgb(255, 208, 0);
+  color: rgb(255, 136, 0);
 
   padding-left: 30px;
 
   border-radius: 20px 0px 0px 20px ;
 
-  box-shadow: 0px 0px 30px rgb(255, 208, 0);
+  box-shadow: 0px 0px 30px rgb(255, 136, 0);
 
   min-width: max-content;
 
-  background-image: linear-gradient(to left, rgb(255, 208, 0) , black 60%);
+  background-image: linear-gradient(to left, rgb(255, 136, 0) , black 60%);
 
   margin-top: -40px;
   margin-bottom: 30px;
+
 }
 
 #Teachers--Jubilut .Link-Button {
@@ -738,6 +751,51 @@
 
   border-radius: 25px;
 
-  background-color: rgb(255, 208, 0);
+  background-color: rgb(255, 136, 0);
+
+}
+
+/*
+///////////////////////// Jubilut Card //////////////
+*/
+
+#Teachers--Guilherme {
+
+  color: rgb(115, 16, 207);
+
+  padding-left: 30px;
+
+  border-radius: 20px 0px 0px 20px ;
+
+  box-shadow: 0px 0px 30px rgb(115, 16, 207);
+
+  min-width: max-content;
+
+  background-image: linear-gradient(to left, rgb(115, 16, 207) , black 60%);
+
+  margin-top: 65px;
+  margin-bottom: 30px;
+
+}
+
+#Teachers--Guilherme .Link-Button {
+
+
+  display:inline-block;
+
+  margin-right: 18px;
+}
+
+#Teachers--Guilherme .Link-Button:hover .Link-Button--border-bar{
+
+  margin-top: -10px;
+  margin-left: 3px;
+
+  width: 85%;
+  height: 2pt;
+
+  border-radius: 25px;
+
+  background-color: rgb(115, 16, 207);
 
 }
