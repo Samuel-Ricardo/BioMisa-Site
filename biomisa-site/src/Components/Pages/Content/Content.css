@@ -101,6 +101,8 @@
 
   padding-left: 10px;
   padding-right: 10px;
+  padding-top: 5pt;
+  padding-bottom: 5pt;
 }
 
 #Nervous--System .list{
@@ -109,12 +111,13 @@
   border-width: 0px 0px 8px 8px;
   border-color: #0c0074;
 
-  border-radius: 5px 0px 0px 10px;
+  border-radius: 5px 3px 0px 10px;
 
   background-color: rgba(12, 0, 117, 0.3);
 
   padding-left: 10px;
   padding-right: 10px;
+  padding-top: 5pt;
 }
 
 #Nervous--System #glia--section {
@@ -123,7 +126,7 @@
   border-width: 0px 0px 0px 8px;
   border-color: #0c0074;
 
-  border-radius: 5px 0px 0px 5px;
+  border-radius: 5px 8px 8px 5px;
 
   background-color: rgba(12, 0, 117, 0.3);
 
@@ -139,7 +142,7 @@
   border-width: 0px 0px 0px 8px;
   border-color: #0c0074;
 
-  border-radius: 5px 0px 0px 5px;
+  border-radius: 5px 8px 8px 5px;
 
   background-color: rgba(12, 0, 117, 0.3);
 
