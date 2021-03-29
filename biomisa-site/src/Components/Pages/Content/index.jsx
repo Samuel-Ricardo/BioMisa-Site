@@ -37,6 +37,16 @@ const ContentPage = (props) => {
 
               <LinkButton link='/content#Introduction'> - Introduçao </LinkButton>
 
+              <LinkButton link='/content#system--division'> - Divisão do Sistema Nervoso </LinkButton>
+
+              <LinkButton link='/content#glia--section'> - Células da Glia </LinkButton>
+
+              <LinkButton link='/content#Brain-Section'> - Região Cerebral </LinkButton>
+
+              <LinkButton link='/content#nervous-section'> - Nervos </LinkButton>
+
+              <LinkButton link='/content#SNP-Division'> - Divisão do Sistema Nervoso Periférico </LinkButton>
+
             </MenuSection>
 
           </Summary>
@@ -79,7 +89,7 @@ const ContentPage = (props) => {
 
               </p>
 
-              <section className="glia--section">
+              <section id="glia--section">
 
                 <p>
 
@@ -119,7 +129,7 @@ const ContentPage = (props) => {
 
               </p>
 
-              <section>
+              <section id='Brain-Section'>
 
                 <p>
 
@@ -226,7 +236,7 @@ const ContentPage = (props) => {
 
               <h2> O SNP (Sistema nervoso periférico) é dividido em sistema nervoso somático e sistema nervoso autônomo. </h2>
 
-              <section>
+              <section id='SNP-Division'>
                 <p>
 
                   <Bold>Sistema Nervoso Somático:</Bold> Tem ações voluntárias. Ex: Músculo estriado esquelético.
