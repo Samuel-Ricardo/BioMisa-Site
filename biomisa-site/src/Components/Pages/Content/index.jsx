@@ -75,7 +75,7 @@ const ContentPage = (props) => {
 
               <p>
 
-                Células da Glia: Estima-se que haja no SNC 10 células glia para cada neurônio, mas devido ao seu reduzido tamanho, elas ocupam a metade do volume do tecido nervoso. Elas diferem em forma e em funções, são elas:
+                <Bold>Células da Glia: </Bold>Estima-se que haja no SNC 10 células glia para cada neurônio, mas devido ao seu reduzido tamanho, elas ocupam a metade do volume do tecido nervoso. Elas diferem em forma e em funções, são elas:
 
               </p>
 
@@ -83,31 +83,25 @@ const ContentPage = (props) => {
 
                 <p>
 
-                  - Oligodendrócitos: São responsáveis pela produção da bainha de mielina e possuem a função de isolante elétrico para os neurônios do SNC. Possuem prolongamentos que se enrolam ao redor dos axônios, produzindo a bainha de mielina.
+                 <Bold> - Oligodendrócitos: </Bold>São responsáveis pela produção da bainha de mielina e possuem a função de isolante elétrico para os neurônios do SNC. Possuem prolongamentos que se enrolam ao redor dos axônios, produzindo a bainha de mielina.
 
                 </p>
 
                 <p>
 
-                  - Oligodendrócitos: São responsáveis pela produção da bainha de mielina e possuem a função de isolante elétrico para os neurônios do SNC. Possuem prolongamentos que se enrolam ao redor dos axônios, produzindo a bainha de mielina.
+                  <Bold>- Células de Schwann:</Bold> Possuem a mesma função dos oligodendrócitos, no entanto, se localizam ao redor dos axônios do sistema nervoso periférico.
 
                 </p>
 
                 <p>
 
-                  - Células de Schwann: Possuem a mesma função dos oligodendrócitos, no entanto, se localizam ao redor dos axônios do sistema nervoso periférico.
+                  <Bold>- Células ependimárias:</Bold> São células epiteliais colunares que revestem os ventrículos do cérebro e o canal central da medula espinhal. Em algumas regiões, estas células são ciliadas, facilitando a movimentação do líquido cefalorraquidiano.
 
                 </p>
 
                 <p>
 
-                  - Células ependimárias: São células epiteliais colunares que revestem os ventrículos do cérebro e o canal central da medula espinhal. Em algumas regiões, estas células são ciliadas, facilitando a movimentação do líquido cefalorraquidiano.
-
-                </p>
-
-                <p>
-
-                  - Micróglia: Estas células são pequenas e alongadas, com prolongamentos curtos e irregulares. São fagocitárias e derivam de precursores que alcançam a medula óssea através da corrente sanguínea, representando o sistema mononuclear fagocitário do SNC.
+                 <Bold> - Micróglia:</Bold> Estas células são pequenas e alongadas, com prolongamentos curtos e irregulares. São fagocitárias e derivam de precursores que alcançam a medula óssea através da corrente sanguínea, representando o sistema mononuclear fagocitário do SNC.
 
                 </p>
 
@@ -115,13 +109,13 @@ const ContentPage = (props) => {
 
               <p>
 
-                Encéfalo: Ele está localizado na caixa craniana e tem três órgãos centrais: Cérebro, cerebelo e tronco encefálico.
+                <Bold>Encéfalo:</Bold> Ele está localizado na caixa craniana e tem três órgãos centrais: Cérebro, cerebelo e tronco encefálico.
 
               </p>
 
               <p>
 
-                Cérebro: É a sede do intelecto humano. Ele possui dois hemisférios que se conectam pelo corpo caloso.
+               <Bold> Cérebro: </Bold> É a sede do intelecto humano. Ele possui dois hemisférios que se conectam pelo corpo caloso.
 
               </p>
 
@@ -129,37 +123,37 @@ const ContentPage = (props) => {
 
                 <p>
 
-                  Córtex cerebral: Onde se formam os pensamentos conscientes, linguagem, memória, etc. (Hipocampo)
+                  <Bold>Córtex cerebral:</Bold> Onde se formam os pensamentos conscientes, linguagem, memória, etc. (Hipocampo)
 
                 </p>
 
                 <p>
 
-                  Região interna: É formada por neurofibras, dendritos e axônios(neurônios).
+                 <Bold> Região interna:</Bold> É formada por neurofibras, dendritos e axônios(neurônios).
 
                 </p>
 
                 <p>
 
-                  Dendrito: Capta as informações.
+                 <Bold> Dendrito: </Bold> Capta as informações.
 
                 </p>
 
                 <p>
 
-                  Corpo Celular: Interpreta as informações.
+                 <Bold> Corpo Celular: </Bold> Interpreta as informações.
 
                 </p>
 
                 <p>
 
-                  Bainha de mielina: Liga as interpretações até a transmissão delas.
+                 <Bold> Bainha de mielina: </Bold> Liga as interpretações até a transmissão delas.
 
                 </p>
 
                 <p>
 
-                  Axônios:  Transmite a informação.
+                 <Bold> Axônios: </Bold> Transmite a informação.
 
                 </p>
 
@@ -167,7 +161,7 @@ const ContentPage = (props) => {
 
                 <p>
 
-                  Medula Espinhal: A medula espinhal é um cordão de tecido nervoso localizado dentro da coluna vertebral na parte superior e está conectada no tronco encefálico. Sua principal função é guiar os impulsos do corpo inteiro para o cérebro e conduzir os atos involuntários chamados de reflexo.
+                  <Bold>Medula Espinhal:</Bold> A medula espinhal é um cordão de tecido nervoso localizado dentro da coluna vertebral na parte superior e está conectada no tronco encefálico. Sua principal função é guiar os impulsos do corpo inteiro para o cérebro e conduzir os atos involuntários chamados de reflexo.
 
                 </p>
 
@@ -178,55 +172,55 @@ const ContentPage = (props) => {
               <h1 id='SNP'>Sistema Nervoso Periférico</h1>
 
               <p>
-                O SNP é constituído por nervos e gânglios. Eles são os responsáveis por interligar o SNC às partes do corpo.
+                O <Bold>SNP</Bold> é constituído por <a href='#nervous-section'><Bold>nervos</Bold></a> e <a href='ganglios'><Bold>gânglios</Bold>.</a> Eles são os responsáveis por interligar o SNC às partes do corpo.
               </p>
 
               <p>
-                Os nervos correspondem a feixes de fibras nervosas envolvidas por tecido conjuntivo. Eles são responsáveis por fazer a união do SNC a outros órgãos periféricos e pela transmissão dos impulsos nervosos.
+                Os <Bold>nervos</Bold> correspondem a feixes de fibras nervosas envolvidas por tecido conjuntivo. Eles são responsáveis por fazer a união do SNC a outros órgãos periféricos e pela transmissão dos impulsos nervosos.
               </p>
 
               <h2>
                 Os nervos apresentam a seguinte divisão:
               </h2>
 
-              <section classname='nervous-section'>
+              <section id='nervous-section'>
 
                 <p>
 
-                  Nervos Espinhais: Ele é composto por 31 pares, e são os que fazem conexão com a medula espinhal. Estes nervos são responsáveis por inervar o tronco, os membros e algumas regiões específicas da cabeça.
+                  <Bold>Nervos Espinhais:</Bold> Ele é composto por 31 pares, e são os que fazem conexão com a medula espinhal. Estes nervos são responsáveis por inervar o tronco, os membros e algumas regiões específicas da cabeça.
 
                 </p>
 
 
                 <p>
 
-                  Nervos Cranianos: Composto por 12 pares, são os que fazem conexão com o encéfalo. São estes nervos que inervam as estruturas da cabeça e do pescoço
+                 <Bold> Nervos Cranianos: </Bold>Composto por 12 pares, são os que fazem conexão com o encéfalo. São estes nervos que inervam as estruturas da cabeça e do pescoço
 
                 </p>
 
                 <p>
 
-                  Nervos Aferentes (Sensitivos): Enviam sinais da periferia da corpo para o sistema nervoso central. Este tipo de nervo é capaz de captar estímulos como o calor e a luz, por exemplo.
+                 <Bold> Nervos Aferentes (Sensitivos):</Bold> Enviam sinais da periferia da corpo para o sistema nervoso central. Este tipo de nervo é capaz de captar estímulos como o calor e a luz, por exemplo.
 
                 </p>
 
                 <p>
 
-                  Nervos Eferentes (Motores): Enviam sinais do sistema nervoso central para os músculos ou glândulas.
+                  <Bold>Nervos Eferentes (Motores):</Bold> Enviam sinais do sistema nervoso central para os músculos ou glândulas.
 
                 </p>
 
                 <p>
 
-                  Nervos Mistos: Formados por fibras sensoriais e fibras motoras, por exemplo, os nervos raquidianos.
+                  <Bold>Nervos Mistos:</Bold> Formados por fibras sensoriais e fibras motoras, por exemplo, os nervos raquidianos.
 
                 </p>
 
               </section>
 
-              <p>
+              <p id='ganglios'>
 
-                Os gânglios nervosos são aglomerados de neurônios situados fora do sistema nervoso central, espalhados pelo corpo. É comum eles formarem uma estrutura esférica.
+                Os<Bold> gânglios nervosos</Bold> são aglomerados de neurônios situados fora do sistema nervoso central, espalhados pelo corpo. É comum eles formarem uma estrutura esférica.
 
               </p>
 
@@ -235,25 +229,25 @@ const ContentPage = (props) => {
               <section>
                 <p>
 
-                  Sistema Nervoso Somático: Tem ações voluntárias. Ex: Músculo estriado esquelético.
+                  <Bold>Sistema Nervoso Somático:</Bold> Tem ações voluntárias. Ex: Músculo estriado esquelético.
 
                 </p>
 
                 <p>
 
-                  Sistema Nervoso Autônomo: Possui ações involuntárias. Ex: Músculo liso e cardíaco. Atua exclusivamente nos sistemas simpático e parassimpático.
+                  <Bold>Sistema Nervoso Autônomo:</Bold> Possui ações involuntárias. Ex: Músculo liso e cardíaco. Atua exclusivamente nos sistemas simpático e parassimpático.
 
                 </p>
 
                 <p>
 
-                  Simpático: Libera adrenalina; Acelera o coração; Dilata a pupila; Bexiga relaxa.
+                  <Bold>Simpático:</Bold> Libera adrenalina; Acelera o coração; Dilata a pupila; Bexiga relaxa.
 
                 </p>
 
                 <p>
 
-                  Parassimpático: Libera acetilcolina; Desacelera o coração; Contrai a pupila; Bexiga contrai
+                  <Bold>Parassimpático:</Bold> Libera acetilcolina; Desacelera o coração; Contrai a pupila; Bexiga contrai
 
                 </p>
               </section>
