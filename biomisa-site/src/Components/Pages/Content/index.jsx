@@ -129,7 +129,7 @@ const ContentPage = (props) => {
 
               </p>
 
-              <section id='Brain-Section'>
+              <section id='Brain-Section' className='section'>
 
                 <p>
 

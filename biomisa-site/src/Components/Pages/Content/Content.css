@@ -85,6 +85,8 @@
 
 #Nervous--System p {
   text-align: justify;
+
+  padding-left: 20pt;
 }
 
 #Nervous--System #intro{
@@ -113,6 +115,38 @@
 
   padding-left: 10px;
   padding-right: 10px;
+}
+
+#Nervous--System #glia--section {
+
+  border-style: solid;
+  border-width: 0px 0px 0px 8px;
+  border-color: #0c0074;
+
+  border-radius: 5px 0px 0px 5px;
+
+  background-color: rgba(12, 0, 117, 0.3);
+
+  padding-left: 30pt;
+  padding-top: 10pt;
+  padding-bottom: 10pt;
+  padding-right: 15pt;
+}
+
+#Nervous--System .section {
+
+  border-style: solid;
+  border-width: 0px 0px 0px 8px;
+  border-color: #0c0074;
+
+  border-radius: 5px 0px 0px 5px;
+
+  background-color: rgba(12, 0, 117, 0.3);
+
+  padding-left: 30pt;
+  padding-top: 10pt;
+  padding-bottom: 10pt;
+  padding-right: 15pt;
 }
 
 #Nervous--System a {
