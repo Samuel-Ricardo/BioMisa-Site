@@ -10,11 +10,12 @@
 <p align='center'>
   <a href="#project">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#techs">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#collab-project">Collab</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;
   <a href="#run-project">Run</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;
   <a href="#author">Author</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 </p>
 
-# :octocat: If you want to collab whit this project
+# :octocat: If You Want To Collab Whit This Project :octocat:
 
  - Front-End Prototype: https://www.figma.com/file/qCa6Y8XNsqdO9Fc8AKtbET/BioMisa-Pages-Content?node-id=11%3A9
 
