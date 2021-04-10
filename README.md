@@ -46,18 +46,45 @@
   <p> teaching biology in an easy and intuitive way </p>
 
   
- >  <img align='left' width='500px' src='https://github.com/Samuel-Ricardo/BioMisa-Site/blob/master/readme_files/site-home.jpeg'>
+ >  <a href='https://biomisa-theta.vercel.app/ '>
+ <img align='center' width='600px' src='https://github.com/Samuel-Ricardo/BioMisa-Site/blob/master/readme_files/site-home.jpeg'></a>
   
   </br>
 
   
  - Current Version: <b> 1.0.0 </b> 
 
+<br>
+<br>
+
 </p>
 
 #
 
+<h2 id="techs">
+  🛠 Technologies and Concepts Studied
+</h2>
+
+- ReactJS
+- react-router-dom
+- JSX
+- JavaScript
+- HTML
+- CSS
+- Functional Programming
+- Asynchronous Functions
+- UseEffect 
+- UseState
+
+- Among Others...
+<br>
+<br>
+
+
+
+
 <p id='collab' />
+
 # :octocat: If You Want To Collab Whit This Project :octocat:
 
  - Front-End Prototype: https://www.figma.com/file/qCa6Y8XNsqdO9Fc8AKtbET/BioMisa-Pages-Content?node-id=11%3A9
