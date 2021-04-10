@@ -46,8 +46,9 @@
   <p> teaching biology in an easy and intuitive way </p>
 
   
- >  <a href='https://biomisa-theta.vercel.app/ '>
- <img align='center' width='600px' src='https://github.com/Samuel-Ricardo/BioMisa-Site/blob/master/readme_files/site-home.jpeg'></a>
+  > <a href='https://biomisa-theta.vercel.app/ '>
+  <img align='center' width='600px' src='https://github.com/Samuel-Ricardo/BioMisa-Site/blob/master/readme_files/site-home.jpeg'>
+ </a>
   
   </br>
 
