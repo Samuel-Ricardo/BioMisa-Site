@@ -8,13 +8,56 @@
 </h2>
 
 <p align='center'>
+  |&nbsp;&nbsp;
   <a href="#project">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#techs">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#collab-project">Collab</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;
+  <a href="#collab">Collab</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;
   <a href="#run-project">Run</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;
   <a href="#author">Author</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 </p>
 
+<h1 align='center'>
+  <a herf='https://github.com/Samuel-Ricardo'>
+    <img src='https://img.shields.io/static/v1?label=&message=Samuel%20Ricardo&color=black&style=for-the-badge&logo=GITHUB'> 
+  </a>
+  
+  <a herf='https://www.instagram.com/samuel_ricardo.ex/'>
+    <img src='https://img.shields.io/static/v1?label=&message=Samuel.ex&color=purple&style=for-the-badge&logo=instagram'> 
+  </a>
+  
+   <a herf='https://www.linkedin.com/in/samuel-ricardo-cabral/'>
+    <img src='https://img.shields.io/static/v1?label=&message=Samuel%20Ricardo&color=blue&style=for-the-badge&logo=LinkedIn'> 
+  </a>
+</h1>
+
+</br>
+</br>
+</br>
+</br>
+</br>
+
+
+<p id='project'> 
+
+<h2>  Project </h2>
+
+ <h5> This project was proposed by the biology teacher <a href='https://www.instagram.com/misaellimajr/'>@Misael<a> </h5>
+  
+  <p> teaching biology in an easy and intuitive way </p>
+
+  
+ >  <img align='left' width='500px' src='https://github.com/Samuel-Ricardo/BioMisa-Site/blob/master/readme_files/site-home.jpeg'>
+  
+  </br>
+
+  
+ - Current Version: <b> 1.0.0 </b> 
+
+</p>
+
+#
+
+<p id='collab' />
 # :octocat: If You Want To Collab Whit This Project :octocat:
 
  - Front-End Prototype: https://www.figma.com/file/qCa6Y8XNsqdO9Fc8AKtbET/BioMisa-Pages-Content?node-id=11%3A9
