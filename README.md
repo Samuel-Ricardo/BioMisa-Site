@@ -30,28 +30,22 @@
   </a>
 </h1>
 
-</br>
-</br>
-</br>
-</br>
-</br>
-
-
 <p id='project'> 
 
 <h2> :artificial_satellite: About </h2>
 
  <h5> This project was proposed by the biology teacher <a href='https://www.instagram.com/misaellimajr/'>@Misael<a> </h5>
   
+  Get in the site: https://biomisa-theta.vercel.app/ 
+  
   <p> teaching biology in an easy and intuitive way </p>
 
   
   > <a href='https://biomisa-theta.vercel.app/ '>
-  <img align='center' width='600px' src='https://github.com/Samuel-Ricardo/BioMisa-Site/blob/master/readme_files/site-home.jpeg'>
+  <img width='600px' src='https://github.com/Samuel-Ricardo/BioMisa-Site/blob/master/readme_files/site-home.jpeg'>
  </a>
   
-  </br>
-
+  <br>
   
  - Current Version: <b> 1.0.0 </b> 
 
@@ -98,6 +92,36 @@ $ npm start
 You also need to install the React library, click on the image below.
 
  > <a href='https://reactjs.org/docs/create-a-new-react-app.html'> <img width='40px' src='https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg'> </a>
+
+
+</br>
+</br>
+
+
+<h2 id='author'> :octocat: Author </h2>
+
+ > <a href='https://www.linkedin.com/in/samuel-ricardo-cabral/'> <img width='500px' src='https://github.com/Samuel-Ricardo/BioMisa-Site/blob/master/readme_files/Samuel-Card.jpeg'> </br> <p><b>   Samuel Ricardo</b></p> </a>
+
+
+<h1>
+  <a herf='https://github.com/Samuel-Ricardo'>
+    <img src='https://img.shields.io/static/v1?label=&message=Samuel%20Ricardo&color=black&style=for-the-badge&logo=GITHUB'> 
+  </a>
+  
+  <a herf='https://www.instagram.com/samuel_ricardo.ex/'>
+    <img src='https://img.shields.io/static/v1?label=&message=Samuel.ex&color=black&style=for-the-badge&logo=instagram'> 
+  </a>
+  
+   <a herf='https://www.linkedin.com/in/samuel-ricardo-cabral/'>
+    <img src='https://img.shields.io/static/v1?label=&message=Samuel%20Ricardo&color=black&style=for-the-badge&logo=LinkedIn'> 
+  </a>
+</h1>
+
+
+
+</br>
+</br>
+
 
 <p id='collab' />
 
