@@ -30,6 +30,9 @@
   </a>
 </h1>
 
+<br>
+<br>
+
 <p id='project'> 
 
 <h2> :artificial_satellite: About </h2>
