@@ -22,11 +22,11 @@
   </a>
   
   <a herf='https://www.instagram.com/samuel_ricardo.ex/'>
-    <img src='https://img.shields.io/static/v1?label=&message=Samuel.ex&color=purple&style=for-the-badge&logo=instagram'> 
+    <img src='https://img.shields.io/static/v1?label=&message=Samuel.ex&color=black&style=for-the-badge&logo=instagram'> 
   </a>
   
    <a herf='https://www.linkedin.com/in/samuel-ricardo-cabral/'>
-    <img src='https://img.shields.io/static/v1?label=&message=Samuel%20Ricardo&color=blue&style=for-the-badge&logo=LinkedIn'> 
+    <img src='https://img.shields.io/static/v1?label=&message=Samuel%20Ricardo&color=black&style=for-the-badge&logo=LinkedIn'> 
   </a>
 </h1>
 
@@ -39,7 +39,7 @@
 
 <p id='project'> 
 
-<h2>  Project </h2>
+<h2> :artificial_satellite: About </h2>
 
  <h5> This project was proposed by the biology teacher <a href='https://www.instagram.com/misaellimajr/'>@Misael<a> </h5>
   
@@ -63,7 +63,7 @@
 #
 
 <h2 id="techs">
-  🛠 Technologies and Concepts Studied
+   :building_construction: Technologies and Concepts Studied
 </h2>
 
 - ReactJS
@@ -81,8 +81,23 @@
 <br>
 <br>
 
+#
 
+<h2 id='run-project'> 👨‍💻 How to use </h2>
 
+You need to have `node.js` in your machine and a package manager (`npm` or `yarn`) to interpret the code and install the dependencies.
+
+```bash
+# To install all the dependencies
+$ npm install
+
+# To run the project
+$ npm start
+```
+
+You also need to install the React library, click on the image below.
+
+ > <a href='https://reactjs.org/docs/create-a-new-react-app.html'> <img width='40px' src='https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg'> </a>
 
 <p id='collab' />
 
