@@ -115,6 +115,10 @@ You also need to install the React library, click on the image below.
     <img src='https://img.shields.io/static/v1?label=&message=Samuel.ex&color=black&style=for-the-badge&logo=instagram'> 
   </a>
   
+  <a herf='https://twitter.com/SamuelR84144340'>
+    <img src='https://img.shields.io/static/v1?label=&message=Samuel%20Ricardo&color=black&style=for-the-badge&logo=twitter'> 
+  </a>
+  
    <a herf='https://www.linkedin.com/in/samuel-ricardo-cabral/'>
     <img src='https://img.shields.io/static/v1?label=&message=Samuel%20Ricardo&color=black&style=for-the-badge&logo=LinkedIn'> 
   </a>
